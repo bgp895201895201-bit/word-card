@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Practice 1.0</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+<div class="container">
+    <h1>Word Practice 1.0</h1>
+
+    <!-- 孩子管理 -->
+    <div id="child-section">
+        <label>孩子:</label>
+        <select id="child-select"></select>
+        <button onclick="addChild()">+ 新增孩子</button>
+        <button onclick="editChild()">✏ 修改名字</button>
+        <button onclick="deleteChild()">🗑 刪除孩子</button>
+    </div>
+
+    <!-- 單字來源 -->
+    <div id="source-section">
+        <label>單字來源:</label>
+        <select id="source-select">
+            <option value="custom">自訂單字</option>
+            <option value="elementary">國小單字庫</option>
+            <option value="junior">國中單字庫</option>
+            <option value="wrong">錯題複習</option>
+        </select>
+    </div>
+
+    <!-- 模式選擇 -->
+    <div id="mode-section">
+        <label>測驗模式:</label>
+        <select id="mode-select">
+            <option value="en-zh">英文 → 中文</option>
+            <option value="zh-en">中文 → 英文</option>
+            <option value="mixed">混合模式</option>
+        </select>
+    </div>
+
+    <!-- 主題選擇 -->
+    <div id="theme-section">
+        <label>主題:</label>
+        <select id="theme-select">
+            <option value="light">淺色</option>
+            <option value="dark">深色</option>
+            <option value="green">護眼綠</option>
+        </select>
+    </div>
+
+    <!-- 單字卡 -->
+    <div id="card-section">
+        <div id="word-card">
+            <p id="word-text"></p>
+            <button id="play-sound">🔊 發音</button>
+        </div>
+        <div id="options"></div>
+        <button id="next-word" onclick="nextWord()">下一題</button>
+    </div>
+
+    <!-- 例句功能 -->
+    <div id="example-section">
+        <button id="toggle-example" onclick="toggleExample()">📘 例句與文法</button>
+        <div id="example-content" style="display:none;"></div>
+    </div>
+
+    <!-- 學習統計 -->
+    <div id="stats-section">
+        <p id="stats"></p>
+    </div>
+
+    <!-- 匯出 / 匯入 -->
+    <div id="data-section">
+        <button onclick="exportData()">匯出資料</button>
+        <input type="file" id="import-file" onchange="importData(event)">
+    </div>
+</div>
+
+<!-- 底部廣告 -->
+<div id="ad-section">
+    <p>廣告區 - 可自行放廣告</p>
+</div>
+
+<script src="wordlist.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
