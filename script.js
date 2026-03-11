@@ -1,4 +1,4 @@
-let children = JSON.parse(localStorage.getItem("children")||"[]");
+let children = JSON.parse(localStorage.getItem("children")||"null") || [];
 let currentChild = null;
 let wordList = [];
 let currentIndex = 0;
@@ -11,10 +11,12 @@ const statsP = document.getElementById("stats");
 const exampleContent = document.getElementById("example-content");
 
 function init() {
-    if(children.length===0){
-        children.push({name:"孩子1", progress:0, wrong:[], custom:[]});
-        children.push({name:"孩子2", progress:0, wrong:[], custom:[]});
-        saveChildren();
+    if(!children || children.length===0){
+    children = [
+        {name:"孩子1", progress:0, wrong:[], custom:[]},
+        {name:"孩子2", progress:0, wrong:[], custom:[]}
+    ];
+    saveChildren();
     }
     populateChildSelect();
     selectChild(0);
@@ -164,3 +166,4 @@ document.getElementById("theme-select").addEventListener("change", e=>{
 
 
 init();
+
