@@ -85,7 +85,7 @@ function nextWord(){
     });
     updateStats();
 }
-function checkAnswer(selected){
+function checkAnswer(selected,e){
 
     const word = wordList[currentIndex];
 
@@ -106,7 +106,7 @@ function checkAnswer(selected){
     }else{
         stats.wrong++;
 
-        const clickedButton = event.target;
+        const clickedButton = e.target;
         clickedButton.classList.add("wrong");
 
         currentChild.wrong.push(word);
@@ -166,5 +166,6 @@ document.getElementById("theme-select").addEventListener("change", e=>{
 
 
 init();
+
 
 
