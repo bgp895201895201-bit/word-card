@@ -34,7 +34,7 @@ function selectChild(index){
     currentChild = children[index];
     loadWords();
 }
-document.getElementById("child-select").addEventListener("change", e=>selectChild(e.target.value));
+document.getElementById("child-select").addEventListener("change", e=>selectChild(parseInt(e.target.value)));
 
 function addChild(){
     let name = prompt("輸入孩子名字:");
@@ -80,7 +80,7 @@ function nextWord(){
     opts.forEach(o=>{
         let btn = document.createElement("button");
         btn.textContent = mode==="zh-en"? o.en:o.zh;
-        btn.onclick = ()=>checkAnswer(o);
+        btn.onclick = (e)=>checkAnswer(o,e);
         optionsDiv.appendChild(btn);
     });
     updateStats();
@@ -166,4 +166,5 @@ document.getElementById("theme-select").addEventListener("change", e=>{
 
 
 init();
+
 
