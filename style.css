@@ -1,12 +1,98 @@
-body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
-.container { max-width:600px; margin:auto; padding:10px; }
-h1 { text-align:center; }
-#word-card { font-size:2em; text-align:center; margin:20px 0; }
-button { padding:5px 10px; margin:5px; }
-#options button { display:block; width:100%; margin:5px 0; }
-#ad-section { text-align:center; padding:20px; background:#eee; position:fixed; bottom:0; width:100%; }
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    transition:0.3s;
+}
 
-[data-theme="dark"] { background:#222; color:#eee; }
-[data-theme="green"] { background:#e0f0e0; }
+.container {
+    max-width:700px;
+    margin:auto;
+    padding:20px;
+}
 
-select { margin:5px; }
+h1{
+    text-align:center;
+}
+
+#word-card{
+    font-size:40px;
+    text-align:center;
+    margin:30px 0;
+    font-weight:bold;
+}
+
+button{
+    padding:10px 14px;
+    margin:6px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#options button{
+    width:100%;
+    margin:8px 0;
+}
+
+/* 答對 */
+.correct{
+    background:#4CAF50 !important;
+    color:white;
+}
+
+/* 答錯 */
+.wrong{
+    background:#E53935 !important;
+    color:white;
+}
+
+/* 題目卡片 */
+#card-section{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 主題 */
+
+/* 淺色 */
+[data-theme="light"]{
+    background:#f4f6fb;
+}
+
+/* 深色 */
+[data-theme="dark"]{
+    background:#1f1f1f;
+    color:white;
+}
+
+/* 護眼綠 */
+[data-theme="green"]{
+    background:#e7f5e8;
+}
+
+/* 藍色 */
+[data-theme="blue"]{
+    background:#e8f1ff;
+}
+
+/* 粉色 */
+[data-theme="pink"]{
+    background:#ffeaf2;
+}
+
+/* 紫色 */
+[data-theme="purple"]{
+    background:#f1e9ff;
+}
+
+#ad-section{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    background:#eee;
+    border-radius:10px;
+}
