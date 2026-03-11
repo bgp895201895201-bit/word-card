@@ -84,11 +84,39 @@ function nextWord(){
     updateStats();
 }
 function checkAnswer(selected){
+
     const word = wordList[currentIndex];
-    let correct = (mode==="zh-en"? selected.en : selected.zh) === (mode==="zh-en"? word.en : word.zh);
-    if(correct) stats.correct++; else { stats.wrong++; currentChild.wrong.push(word); saveChildren(); }
-    currentIndex++;
-    nextWord();
+
+    let correct =
+    (mode==="zh-en"? selected.en : selected.zh) ===
+    (mode==="zh-en"? word.en : word.zh);
+
+    const buttons = optionsDiv.querySelectorAll("button");
+
+    buttons.forEach(btn=>{
+        if(btn.textContent === (mode==="zh-en"? word.en : word.zh)){
+            btn.classList.add("correct");
+        }
+    });
+
+    if(correct){
+        stats.correct++;
+    }else{
+        stats.wrong++;
+
+        const clickedButton = event.target;
+        clickedButton.classList.add("wrong");
+
+        currentChild.wrong.push(word);
+        saveChildren();
+    }
+
+    updateStats();
+
+    setTimeout(()=>{
+        currentIndex++;
+        nextWord();
+    },800);
 }
 function updateStats(){ statsP.textContent=`正確: ${stats.correct} 錯誤: ${stats.wrong}`; }
 
@@ -133,5 +161,6 @@ function importData(e){
 document.getElementById("theme-select").addEventListener("change", e=>{
     document.body.dataset.theme = e.target.value;
 });
+
 
 init();
