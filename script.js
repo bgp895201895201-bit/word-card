@@ -161,12 +161,14 @@ function importData(e){
 }
 
 // 主題切換
-document.getElementById("theme-select").addEventListener("change", e=>{
-    document.body.dataset.theme = e.target.value;
-});
+document.querySelectorAll(".theme-dot").forEach(dot=>{
+    dot.addEventListener("click", ()=>{
+        document.body.dataset.theme = dot.dataset.theme;
+    });
 
 
 init();
+
 
 
 
