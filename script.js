@@ -123,14 +123,15 @@ function checkAnswer(selected,e){
 function updateStats(){ statsP.textContent=`正確: ${stats.correct} 錯誤: ${stats.wrong}`; }
 
 // 發音
-document.getElementById("play-sound").addEventListener("click", ()=>{
+wordText.addEventListener("click", ()=>{
     const word = wordList[currentIndex];
     if(!word) return;
+
     let utter = new SpeechSynthesisUtterance(word.en);
     utter.lang="en-US";
     speechSynthesis.speak(utter);
 });
-
+   
 // 例句功能
 function toggleExample(){
     if(exampleContent.style.display==="none"){
@@ -166,6 +167,7 @@ document.getElementById("theme-select").addEventListener("change", e=>{
 
 
 init();
+
 
 
 
