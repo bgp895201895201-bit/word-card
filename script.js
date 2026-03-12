@@ -1,158 +1,137 @@
-let children = JSON.parse(localStorage.getItem("children")||"null") || [];
-let currentChild = null;
-let wordList = [];
-let currentIndex = 0;
-let stats = {correct:0, wrong:0};
-let mode = "en-zh";
+const wordList = [
+{en:"apple",zh:"蘋果"},
+{en:"dog",zh:"狗"},
+{en:"cat",zh:"貓"},
+{en:"book",zh:"書"},
+{en:"water",zh:"水"}
+];
 
-const wordText = document.getElementById("word-text");
-const optionsDiv = document.getElementById("options");
-const statsP = document.getElementById("stats");
-const exampleContent = document.getElementById("example-content");
+let currentWord;
+let mode="en-zh";
 
-function init() {
+const wordText=document.getElementById("word-text");
+const optionsDiv=document.getElementById("options");
 
-```
-if(!children || children.length===0){
-    children = [
-        {name:"孩子1", progress:0, wrong:[], custom:[]},
-        {name:"孩子2", progress:0, wrong:[], custom:[]}
-    ];
-    saveChildren();
-}
+const childSelect=document.getElementById("child-select");
 
-populateChildSelect();
-selectChild(0);
-```
+let children=[
+{name:"孩子1",correct:0,wrong:0},
+{name:"孩子2",correct:0,wrong:0}
+];
 
-}
+function loadChildren(){
 
-function saveChildren(){
-localStorage.setItem("children", JSON.stringify(children));
-}
+childSelect.innerHTML="";
 
-function populateChildSelect(){
-const sel = document.getElementById("child-select");
-sel.innerHTML="";
-
-```
 children.forEach((c,i)=>{
-    let o=document.createElement("option");
-    o.value=i;
-    o.text=c.name;
-    sel.add(o);
+let opt=document.createElement("option");
+opt.value=i;
+opt.textContent=c.name;
+childSelect.appendChild(opt);
 });
-```
 
 }
-
-function selectChild(index){
-currentChild = children[index];
-loadWords();
-}
-
-document.getElementById("child-select")
-.addEventListener("change", e=>selectChild(parseInt(e.target.value)));
 
 function addChild(){
-let name = prompt("輸入孩子名字:");
-if(name){
-children.push({name, progress:0, wrong:[], custom:[]});
-saveChildren();
-populateChildSelect();
-}
-}
 
-function editChild(){
-let index = document.getElementById("child-select").value;
-let name = prompt("修改名字:", children[index].name);
+let name=prompt("孩子名字");
 
-```
-if(name){
-    children[index].name=name;
-    saveChildren();
-    populateChildSelect();
-}
-```
+if(!name)return;
+
+children.push({
+name:name,
+correct:0,
+wrong:0
+});
+
+loadChildren();
 
 }
 
-function deleteChild(){
-let index = document.getElementById("child-select").value;
-
-```
-if(confirm("確定刪除?")){
-    children.splice(index,1);
-    saveChildren();
-    populateChildSelect();
-    selectChild(0);
-}
-```
-
-}
-
-// 載入單字
-function loadWords(){
-
-```
-const src = document.getElementById("source-select").value;
-
-if(src==="elementary") wordList = [...elementaryList];
-else if(src==="junior") wordList = [...juniorList];
-else if(src==="wrong") wordList = currentChild.wrong;
-else wordList = currentChild.custom;
-
-currentIndex = 0;
-stats = {correct:0, wrong:0};
-
-nextWord();
-```
-
-}
-
-document.getElementById("source-select").addEventListener("change", loadWords);
-document.getElementById("mode-select").addEventListener("change", e=>mode=e.target.value);
-
-// 下一題
 function nextWord(){
 
-```
-if(wordList.length===0){
-    wordText.textContent="沒有單字";
-    optionsDiv.innerHTML="";
-    return;
-}
+const word=wordList[Math.floor(Math.random()*wordList.length)];
 
-if(currentIndex>=wordList.length){
-    alert("已完成!");
-    return;
-}
+currentWord=word;
 
-const word = wordList[currentIndex];
+mode=document.getElementById("mode").value;
 
-wordText.textContent =
-    mode==="zh-en" ? word.zh : word.en;
+wordText.textContent= mode==="en-zh"?word.en:word.zh;
 
 optionsDiv.innerHTML="";
 
-let opts = [word];
+let options=[word];
 
-while(opts.length<4 && wordList.length>3){
-    let randomWord = wordList[Math.floor(Math.random()*wordList.length)];
+while(options.length<4){
 
-    if(!opts.includes(randomWord)){
-        opts.push(randomWord);
-    }
+let w=wordList[Math.floor(Math.random()*wordList.length)];
+
+if(!options.includes(w)) options.push(w);
+
 }
 
-opts = opts.sort(()=>Math.random()-0.5);
+options.sort(()=>Math.random()-0.5);
 
-opts.forEach(o=>{
+options.forEach(w=>{
 
-    let btn = document.createEl
-```
+let btn=document.createElement("button");
 
+btn.textContent=mode==="en-zh"?w.zh:w.en;
 
+btn.onclick=()=>checkAnswer(w);
 
+optionsDiv.appendChild(btn);
 
+});
 
+}
+
+function checkAnswer(w){
+
+let correct = w===currentWord;
+
+const buttons=optionsDiv.querySelectorAll("button");
+
+buttons.forEach(btn=>{
+
+if(btn.textContent === (mode==="en-zh"?currentWord.zh:currentWord.en)){
+btn.classList.add("correct");
+}
+
+});
+
+if(!correct){
+
+event.target.classList.add("wrong");
+
+}
+
+setTimeout(nextWord,800);
+
+}
+
+wordText.onclick=function(){
+
+let text=currentWord.en;
+
+let speech=new SpeechSynthesisUtterance(text);
+
+speech.lang="en-US";
+
+speechSynthesis.speak(speech);
+
+};
+
+document.querySelectorAll(".theme-dot").forEach(dot=>{
+
+dot.onclick=function(){
+
+document.body.setAttribute("data-theme",this.dataset.theme);
+
+};
+
+});
+
+loadChildren();
+
+nextWord();
