@@ -96,3 +96,10 @@ button{
     background:#eee;
     border-radius:10px;
 }
+#word-text{
+    font-size:60px;
+    font-weight:bold;
+    margin:30px 0;
+    cursor:pointer;
+    font-family: "Comic Sans MS","Arial Rounded MT Bold","Noto Sans TC",sans-serif;
+}
