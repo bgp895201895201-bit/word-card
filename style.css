@@ -58,6 +58,25 @@ button{
 
 /* 主題 */
 
+#theme-picker{
+    margin:15px 0;
+}
+
+.theme-dot{
+    display:inline-block;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    margin-right:10px;
+    cursor:pointer;
+    border:2px solid #ddd;
+}
+
+.theme-dot[data-theme="light"]{ background:#ffffff; }
+.theme-dot[data-theme="dark"]{ background:#333; }
+.theme-dot[data-theme="pink"]{ background:#ff9acb; }
+.theme-dot[data-theme="blue"]{ background:#7dbbff; }
+
 /* 淺色 */
 [data-theme="light"]{
     background:#f4f6fb;
@@ -103,3 +122,4 @@ button{
     cursor:pointer;
     font-family: "Comic Sans MS","Arial Rounded MT Bold","Noto Sans TC",sans-serif;
 }
+
