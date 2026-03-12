@@ -50,5 +50,106 @@ transform:scale(1.08);
 button{
 padding:10px 16px;
 margin:6px;
-border-radius:10
+border-radius:10px;
+border:none;
+cursor:pointer;
+font-size:16px;
+background:#e9edf5;
+transition:0.2s;
+}
+
+button:hover{
+transform:scale(1.03);
+}
+
+/* 選項 */
+
+#options button{
+width:100%;
+margin:10px 0;
+font-size:18px;
+padding:14px;
+}
+
+/* 答對 */
+
+.correct{
+background:#4CAF50 !important;
+color:white;
+}
+
+/* 答錯 */
+
+.wrong{
+background:#E53935 !important;
+color:white;
+}
+
+/* 主題選擇 */
+
+#theme-picker{
+margin:15px 0;
+}
+
+/* 顏色點 */
+
+.theme-dot{
+display:inline-block;
+width:22px;
+height:22px;
+border-radius:50%;
+margin-right:10px;
+cursor:pointer;
+border:2px solid #ddd;
+transition:0.2s;
+}
+
+.theme-dot:hover{
+transform:scale(1.2);
+}
+
+.theme-dot[data-theme="light"]{ background:#ffffff; }
+.theme-dot[data-theme="dark"]{ background:#333; }
+.theme-dot[data-theme="pink"]{ background:#ff9acb; }
+.theme-dot[data-theme="blue"]{ background:#7dbbff; }
+
+/* 主題 */
+
+[data-theme="light"]{
+background:#f4f6fb;
+}
+
+[data-theme="dark"]{
+background:#1f1f1f;
+color:white;
+}
+
+[data-theme="dark"] #card-section{
+background:#2c2c2c;
+}
+
+[data-theme="pink"]{
+background:#ffeaf2;
+}
+
+[data-theme="blue"]{
+background:#e8f1ff;
+}
+
+/* 統計 */
+
+#stats{
+font-weight:bold;
+margin-top:15px;
+}
+
+/* 廣告 */
+
+#ad-section{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#eee;
+border-radius:10px;
+}
 
