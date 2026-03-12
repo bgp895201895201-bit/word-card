@@ -3,7 +3,6 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Word Practice 1.0</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -14,105 +13,58 @@
 
 <h1>Word Practice 1.0</h1>
 
-<!-- 孩子管理 -->
+<label>孩子:</label> <select id="child-select"></select>
 
-<div id="child-section">
-<label>孩子:</label>
-<select id="child-select"></select>
+<button onclick="addChild()">＋新增孩子</button>
 
-<button onclick="addChild()">+ 新增孩子</button> <button onclick="editChild()">✏ 修改名字</button> <button onclick="deleteChild()">🗑 刪除孩子</button>
+<hr>
 
-</div>
+<label>單字來源:</label> <select id="word-source">
 
-<!-- 單字來源 -->
-
-<div id="source-section">
-<label>單字來源:</label>
-
-<select id="source-select">
+<option value="built">內建單字</option>
 <option value="custom">自訂單字</option>
-<option value="elementary">國小單字庫</option>
-<option value="junior">國中單字庫</option>
-<option value="wrong">錯題複習</option>
 </select>
-</div>
 
-<!-- 測驗模式 -->
+<label>測驗模式:</label> <select id="mode">
 
-<div id="mode-section">
-<label>測驗模式:</label>
-
-<select id="mode-select">
 <option value="en-zh">英文 → 中文</option>
 <option value="zh-en">中文 → 英文</option>
-<option value="mixed">混合模式</option>
 </select>
-</div>
-
-<!-- 主題顏色 -->
 
 <div id="theme-picker">
 
-<label>主題:</label>
+主題:
 
 <span class="theme-dot" data-theme="light"></span> <span class="theme-dot" data-theme="dark"></span> <span class="theme-dot" data-theme="pink"></span> <span class="theme-dot" data-theme="blue"></span>
 
 </div>
 
-<!-- 單字卡 -->
-
 <div id="card-section">
 
-<div id="word-card">
-<p id="word-text"></p>
-</div>
+<div id="word-text"></div>
 
 <div id="options"></div>
 
-<button id="next-word" onclick="nextWord()">下一題</button>
+<button onclick="nextWord()">下一題</button>
 
 </div>
 
-<!-- 例句 -->
+<label>
+<input type="checkbox" id="showExample">
+例句與文法
+</label>
 
-<div id="example-section">
+<div id="example-box"></div>
 
-<button id="toggle-example" onclick="toggleExample()">
-📘 例句與文法
-</button>
+<hr>
 
-<div id="example-content" style="display:none;"></div>
+<button onclick="importWords()">匯出資料</button>
 
-</div>
-
-<!-- 統計 -->
-
-<div id="stats-section">
-<p id="stats"></p>
-</div>
-
-<!-- 匯出 / 匯入 -->
-
-<div id="data-section">
-
-<button onclick="exportData()">匯出資料</button>
-
-<input type="file" id="import-file" onchange="importData(event)">
+<input type="file" id="fileInput">
 
 </div>
-
-</div>
-
-<!-- 底部廣告 -->
-
-<div id="ad-section">
-<p>廣告區 - 可自行放廣告</p>
-</div>
-
-<script src="wordlist.js"></script>
 
 <script src="script.js"></script>
 
 </body>
 </html>
-
