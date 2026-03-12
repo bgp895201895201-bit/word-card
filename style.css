@@ -1,125 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin:0;
-    padding:0;
-    transition:0.3s;
+body{
+font-family: "Noto Sans TC","Arial Rounded MT Bold",sans-serif;
+margin:0;
+padding:0;
+transition:0.3s;
 }
 
-.container {
-    max-width:700px;
-    margin:auto;
-    padding:20px;
+/* 主容器 */
+
+.container{
+max-width:700px;
+margin:auto;
+padding:20px;
 }
 
 h1{
-    text-align:center;
+text-align:center;
 }
 
-#word-card{
-    font-size:40px;
-    text-align:center;
-    margin:30px 0;
-    font-weight:bold;
+/* 單字卡片 */
+
+#card-section{
+background:white;
+padding:25px;
+border-radius:16px;
+box-shadow:0 6px 14px rgba(0,0,0,0.1);
+margin-top:20px;
 }
+
+/* 單字 */
+
+#word-text{
+font-size:64px;
+text-align:center;
+margin:30px 0;
+font-weight:bold;
+cursor:pointer;
+font-family:"Comic Sans MS","Arial Rounded MT Bold","Noto Sans TC",sans-serif;
+transition:0.2s;
+}
+
+/* 點擊單字動畫 */
+
+#word-text:active{
+transform:scale(1.08);
+}
+
+/* 按鈕 */
 
 button{
-    padding:10px 14px;
-    margin:6px;
-    border-radius:8px;
-    border:none;
-    cursor:pointer;
-    font-size:16px;
-}
-
-#options button{
-    width:100%;
-    margin:8px 0;
-}
-
-/* 答對 */
-.correct{
-    background:#4CAF50 !important;
-    color:white;
-}
-
-/* 答錯 */
-.wrong{
-    background:#E53935 !important;
-    color:white;
-}
-
-/* 題目卡片 */
-#card-section{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* 主題 */
-
-#theme-picker{
-    margin:15px 0;
-}
-
-.theme-dot{
-    display:inline-block;
-    width:22px;
-    height:22px;
-    border-radius:50%;
-    margin-right:10px;
-    cursor:pointer;
-    border:2px solid #ddd;
-}
-
-.theme-dot[data-theme="light"]{ background:#ffffff; }
-.theme-dot[data-theme="dark"]{ background:#333; }
-.theme-dot[data-theme="pink"]{ background:#ff9acb; }
-.theme-dot[data-theme="blue"]{ background:#7dbbff; }
-
-/* 淺色 */
-[data-theme="light"]{
-    background:#f4f6fb;
-}
-
-/* 深色 */
-[data-theme="dark"]{
-    background:#1f1f1f;
-    color:white;
-}
-
-/* 護眼綠 */
-[data-theme="green"]{
-    background:#e7f5e8;
-}
-
-/* 藍色 */
-[data-theme="blue"]{
-    background:#e8f1ff;
-}
-
-/* 粉色 */
-[data-theme="pink"]{
-    background:#ffeaf2;
-}
-
-/* 紫色 */
-[data-theme="purple"]{
-    background:#f1e9ff;
-}
-
-#ad-section{
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-    background:#eee;
-    border-radius:10px;
-}
-#word-text{
-    font-size:60px;
-    font-weight:bold;
-    margin:30px 0;
-    cursor:pointer;
-    font-family: "Comic Sans MS","Arial Rounded MT Bold","Noto Sans TC",sans-serif;
-}
+padding:10px 16px;
+margin:6px;
+border-radius:10
 
