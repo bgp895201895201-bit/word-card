@@ -69,1136 +69,1136 @@ const elementaryWords = [
 {en:"baseball",zh:"棒球"}, [cite: 34]
 {en:"basket",zh:"籃子"}, [cite: 34]
 {en:"basketball",zh:"籃球"}, 
-{en:"bat",zh:"蝙蝠"}, [cite: 2]
-{en:"bath",zh:"洗澡"}, [cite: 2]
-{en:"bathroom",zh:"浴室"}, [cite: 2]
-{en:"be",zh:"是"}, [cite: 2]
-{en:"beach",zh:"海灘"}, [cite: 2]
-{en:"bean",zh:"豆"}, [cite: 2]
-{en:"bear",zh:"熊"}, [cite: 2]
-{en:"beautiful",zh:"美麗的"}, [cite: 2]
-{en:"because",zh:"因為"}, [cite: 2]
-{en:"become",zh:"變成"}, [cite: 2]
-{en:"bed",zh:"床"}, [cite: 2]
-{en:"bedroom",zh:"臥室"}, [cite: 2]
-{en:"bee",zh:"蜜蜂"}, [cite: 2]
-{en:"beef",zh:"牛肉"}, [cite: 2]
-{en:"before",zh:"在...之前"}, [cite: 2]
-{en:"begin",zh:"開始"}, [cite: 2]
-{en:"behind",zh:"在...後面"}, [cite: 2]
-{en:"believe",zh:"相信"}, [cite: 2]
-{en:"bell",zh:"鈴"}, [cite: 2]
-{en:"belong",zh:"屬於"}, [cite: 2]
-{en:"below",zh:"在...下方"}, [cite: 2]
-{en:"belt",zh:"皮帶"}, [cite: 2]
-{en:"bench",zh:"長椅"}, [cite: 2]
-{en:"beside",zh:"在...旁邊"}, [cite: 2]
-{en:"between",zh:"在...之間"}, [cite: 2]
-{en:"bike",zh:"腳踏車"}, [cite: 2]
-{en:"big",zh:"大的"}, [cite: 2]
-{en:"bird",zh:"鳥"}, [cite: 2]
-{en:"birthday",zh:"生日"}, [cite: 2]
-{en:"bite",zh:"咬"}, [cite: 2]
-{en:"black",zh:"黑色(的)"}, [cite: 4]
-{en:"blackboard",zh:"黑板"}, [cite: 4]
-{en:"blanket",zh:"毯子"}, [cite: 4]
-{en:"blind",zh:"瞎的"}, [cite: 4]
-{en:"block",zh:"街區"}, [cite: 4]
-{en:"blow",zh:"吹"}, [cite: 4]
-{en:"blue",zh:"藍色(的)"}, [cite: 4]
-{en:"boat",zh:"船"}, [cite: 4]
-{en:"body",zh:"身體"}, [cite: 4]
-{en:"boil",zh:"煮沸"}, [cite: 4]
-{en:"book",zh:"書"}, [cite: 4]
-{en:"bookstore",zh:"書店"}, [cite: 4]
-{en:"bored",zh:"感到厭煩的"}, [cite: 4]
-{en:"boring",zh:"無聊的"}, [cite: 4]
-{en:"born",zh:"出生"}, [cite: 4]
-{en:"borrow",zh:"借入"}, [cite: 4]
-{en:"boss",zh:"老板"}, [cite: 4]
-{en:"both",zh:"兩者都"}, [cite: 4]
-{en:"bottle",zh:"瓶子"}, [cite: 4]
-{en:"bottom",zh:"底部"}, [cite: 4]
-{en:"bow",zh:"敬禮"}, [cite: 4]
-{en:"bowl",zh:"碗"}, [cite: 4]
-{en:"box",zh:"盒子"}, [cite: 4]
-{en:"boy",zh:"男孩"}, [cite: 4]
-{en:"bread",zh:"麵包"}, [cite: 4]
-{en:"break",zh:"打破"}, [cite: 4]
-{en:"breakfast",zh:"早餐"}, [cite: 4]
-{en:"bridge",zh:"橋"}, [cite: 4]
-{en:"bright",zh:"明亮的"}, [cite: 4]
-{en:"bring",zh:"帶來"}, [cite: 4]
-{en:"brother",zh:"兄弟"}, [cite: 4]
-{en:"brown",zh:"棕色(的)"}, [cite: 4]
-{en:"brush",zh:"刷"}, [cite: 4]
-{en:"bug",zh:"小蟲"}, [cite: 4]
-{en:"build",zh:"建造"}, [cite: 4]
-{en:"bun",zh:"小圓麵包"}, [cite: 4]
-{en:"burn",zh:"燃燒"}, [cite: 4]
-{en:"bus",zh:"公車"}, [cite: 4]
-{en:"business",zh:"生意"}, [cite: 4]
-{en:"businessman",zh:"商人"}, [cite: 4]
-{en:"busy",zh:"忙碌的"}, [cite: 4]
-{en:"but",zh:"但是"}, [cite: 4]
-{en:"butter",zh:"奶油"}, [cite: 4]
-{en:"butterfly",zh:"蝴蝶"}, [cite: 4]
-{en:"buy",zh:"買"}, [cite: 4]
-{en:"by",zh:"藉著"}, [cite: 4]
-{en:"cage",zh:"籠子"}, [cite: 4]
-{en:"cake",zh:"蛋糕"}, [cite: 4]
-{en:"call",zh:"打電話"}, [cite: 4]
-{en:"cap",zh:"(無邊)帽"}, [cite: 4]
-{en:"camp",zh:"露營"}, [cite: 4]
-{en:"can",zh:"能夠"}, [cite: 4]
-{en:"candle",zh:"蠟燭"}, [cite: 4]
-{en:"candy",zh:"糖果"}, [cite: 4]
-{en:"camera",zh:"照相機"}, [cite: 4]
-{en:"car",zh:"車子"}, [cite: 4]
-{en:"card",zh:"卡片"}, [cite: 4]
-{en:"care",zh:"關心"}, [cite: 4]
-{en:"careful",zh:"仔細的"}, [cite: 4]
-{en:"carry",zh:"攜帶"}, [cite: 4]
-{en:"case",zh:"情形"}, [cite: 4]
-{en:"castle",zh:"城堡"}, [cite: 4]
-{en:"cat",zh:"貓"}, [cite: 4]
-{en:"catch",zh:"趕上"}, [cite: 4]
-{en:"celebrate",zh:"慶祝"}, [cite: 4]
-{en:"cell phone",zh:"手機"}, [cite: 4]
-{en:"cent",zh:"〈一〉分錢"}, [cite: 4]
-{en:"center",zh:"中心"}, [cite: 4]
-{en:"centimeter",zh:"公分"}, [cite: 4]
-{en:"chair",zh:"椅子"}, [cite: 4]
-{en:"chalk",zh:"粉筆"}, [cite: 4]
-{en:"chance",zh:"機會"}, [cite: 4]
-{en:"change",zh:"交換,零錢"}, [cite: 4]
-{en:"cheap",zh:"便宜的"}, [cite: 4]
-{en:"cheat",zh:"欺騙"}, [cite: 4]
-{en:"check",zh:"檢查"}, [cite: 4]
-{en:"cheer",zh:"歡呼"}, [cite: 4]
-{en:"cheese",zh:"乳酪"}, [cite: 4]
-{en:"chess",zh:"西洋棋"}, [cite: 4]
-{en:"chicken",zh:"雞肉"}, [cite: 4]
-{en:"child",zh:"小孩"}, [cite: 4]
-{en:"China",zh:"中國"}, [cite: 4]
-{en:"Chinese",zh:"中國人,中文"}, [cite: 4]
-{en:"chocolate",zh:"巧克力"}, [cite: 4]
-{en:"choose",zh:"選擇"}, [cite: 4]
-{en:"chopsticks",zh:"筷子"}, [cite: 4]
-{en:"Christmas",zh:"聖誕節"}, [cite: 4]
-{en:"church",zh:"教堂"}, [cite: 4]
-{en:"circle",zh:"圓圈"}, [cite: 4]
-{en:"city",zh:"城市"}, [cite: 4]
-{en:"clap",zh:"拍手"}, [cite: 4]
-{en:"class",zh:"班級"}, [cite: 4]
-{en:"classmate",zh:"同班同學"}, [cite: 4]
-{en:"classroom",zh:"教室"}, [cite: 4]
-{en:"clean",zh:"打掃"}, [cite: 4]
-{en:"clear",zh:"清楚的"}, [cite: 4]
-{en:"clerk",zh:"店員"}, [cite: 4]
-{en:"climb",zh:"爬"}, [cite: 4]
-{en:"clock",zh:"時鐘"}, [cite: 4]
-{en:"close",zh:"關上"}, [cite: 4]
-{en:"clothes",zh:"衣服"}, [cite: 6]
-{en:"cloudy",zh:"多雲的"}, [cite: 6]
-{en:"club",zh:"社團"}, [cite: 6]
-{en:"coat",zh:"大衣"}, [cite: 6]
-{en:"coffee",zh:"咖啡"}, [cite: 6]
-{en:"Coke",zh:"可樂"}, [cite: 6]
-{en:"cold",zh:"寒冷的"}, [cite: 6]
-{en:"collect",zh:"收集"}, [cite: 6]
-{en:"color",zh:"顏色"}, [cite: 6]
-{en:"come",zh:"來"}, [cite: 6]
-{en:"comb",zh:"梳子"}, [cite: 6]
-{en:"comfortable",zh:"舒適的"}, [cite: 6]
-{en:"comic",zh:"連環漫畫"}, [cite: 6]
-{en:"common",zh:"共同的"}, [cite: 6]
-{en:"computer",zh:"電腦"}, [cite: 6]
-{en:"convenient",zh:"方便的"}, [cite: 6]
-{en:"cook",zh:"煮飯"}, [cite: 6]
-{en:"cookie",zh:"餅乾"}, [cite: 6]
-{en:"cool",zh:"涼爽的"}, [cite: 6]
-{en:"copy",zh:"抄寫,複製"}, [cite: 6]
-{en:"corner",zh:"角落"}, [cite: 6]
-{en:"correct",zh:"正確的"}, [cite: 6]
-{en:"cost",zh:"價值"}, [cite: 6]
-{en:"couch",zh:"沙發"}, [cite: 6]
-{en:"count",zh:"計算"}, [cite: 6]
-{en:"country",zh:"鄉村"}, [cite: 6]
-{en:"course",zh:"課程"}, [cite: 6]
-{en:"cousin",zh:"堂,表兄弟姊妹"}, [cite: 6]
-{en:"cover",zh:"覆蓋,封面,掩護"}, [cite: 6]
-{en:"cow",zh:"母牛"}, [cite: 6]
-{en:"cowboy",zh:"牛仔"}, [cite: 6]
-{en:"crazy",zh:"瘋狂的"}, [cite: 6]
-{en:"cross",zh:"越過"}, [cite: 6]
-{en:"cry",zh:"哭"}, [cite: 6]
-{en:"cup",zh:"茶杯"}, [cite: 6]
-{en:"cut",zh:"切"}, [cite: 6]
-{en:"cute",zh:"可愛的"}, [cite: 6]
-{en:"dance",zh:"跳舞"}, [cite: 6]
-{en:"dangerous",zh:"危險的"}, [cite: 6]
-{en:"dark",zh:"黑暗的"}, [cite: 6]
-{en:"date",zh:"日期"}, [cite: 6]
-{en:"daughter",zh:"女兒"}, [cite: 6]
-{en:"day",zh:"日子"}, [cite: 6]
-{en:"dead",zh:"死的"}, [cite: 6]
-{en:"dear",zh:"親愛的"}, [cite: 6]
-{en:"December",zh:"十二月"}, [cite: 6]
-{en:"decide",zh:"決定"}, [cite: 6]
-{en:"delicious",zh:"美味的"}, [cite: 6]
-{en:"dentist",zh:"牙醫"}, [cite: 6]
-{en:"department store",zh:"百貨公司"}, [cite: 6]
-{en:"desk",zh:"書桌"}, [cite: 6]
-{en:"dictionary",zh:"字典"}, [cite: 6]
-{en:"die",zh:"死掉"}, [cite: 6]
-{en:"different",zh:"不同的"}, [cite: 6]
-{en:"difficult",zh:"困難的"}, [cite: 6]
-{en:"dig",zh:"挖掘"}, [cite: 6]
-{en:"dining room",zh:"飯廳"}, [cite: 6]
-{en:"dinner",zh:"晚餐"}, [cite: 6]
-{en:"dirty",zh:"骯髒的"}, [cite: 6]
-{en:"dish",zh:"盤子,菜餚"}, [cite: 6]
-{en:"do",zh:"做"}, [cite: 6]
-{en:"doctor",zh:"醫生"}, [cite: 6]
-{en:"dodge ball",zh:"躲避球"}, [cite: 6]
-{en:"dog",zh:"狗"}, [cite: 6]
-{en:"doll",zh:"洋娃娃"}, [cite: 6]
-{en:"dollar",zh:"元"}, [cite: 6]
-{en:"door",zh:"門"}, [cite: 6]
-{en:"dot",zh:"點"}, [cite: 6]
-{en:"down",zh:"向下"}, [cite: 6]
-{en:"dozen",zh:"〈一〉打"}, [cite: 6]
-{en:"dragon",zh:"龍"}, [cite: 6]
-{en:"draw",zh:"畫"}, [cite: 6]
-{en:"drawer",zh:"抽屜"}, [cite: 6]
-{en:"dream",zh:"(做)夢"}, [cite: 6]
-{en:"dress",zh:"洋 dress"}, [cite: 6]
-{en:"drink",zh:"喝"}, [cite: 6]
-{en:"drive",zh:"駕駛"}, [cite: 6]
-{en:"driver",zh:"駕駛人"}, [cite: 6]
-{en:"drop",zh:"掉落"}, [cite: 6]
-{en:"drum",zh:"鼓"}, [cite: 6]
-{en:"dry",zh:"乾的"}, [cite: 6]
-{en:"duck",zh:"鴨"}, [cite: 6]
-{en:"dumpling",zh:"包餡食物,餃子"}, [cite: 6]
-{en:"during",zh:"在...期間"}, [cite: 6]
-{en:"each",zh:"每一(的〉"}, [cite: 6]
-{en:"ear",zh:"耳朵"}, [cite: 6]
-{en:"early",zh:"早的"}, [cite: 6]
-{en:"earth",zh:"地球"}, [cite: 6]
-{en:"east",zh:"東方"}, [cite: 6]
-{en:"Easter",zh:"復活節"}, [cite: 6]
-{en:"easy",zh:"容易的"}, [cite: 6]
-{en:"eat",zh:"吃"}, [cite: 6]
-{en:"egg",zh:"蛋"}, [cite: 6]
-{en:"eight",zh:"八"}, [cite: 6]
-{en:"eighteen",zh:"十八"}, [cite: 6]
-{en:"eighth",zh:"第八"}, [cite: 6]
-{en:"eighty",zh:"八十"}, [cite: 6]
-{en:"either",zh:"也不"}, [cite: 6]
-{en:"elementary school",zh:"小學"}, [cite: 6]
-{en:"elephant",zh:"大象"}, [cite: 6]
-{en:"eleven",zh:"十一"}, [cite: 8]
-{en:"eleventh",zh:"第十一(的)"}, [cite: 8]
-{en:"else",zh:"其他的"}, [cite: 8]
-{en:"e-mail",zh:"電子郵件"}, [cite: 8]
-{en:"end",zh:"結束"}, [cite: 8]
-{en:"engineer",zh:"工程師"}, [cite: 8]
-{en:"English",zh:"英語"}, [cite: 8]
-{en:"enjoy",zh:"喜愛"}, [cite: 8]
-{en:"enough",zh:"足夠的"}, [cite: 8]
-{en:"enter",zh:"進入"}, [cite: 8]
-{en:"envelope",zh:"信"}, [cite: 8]
-{en:"eraser",zh:"橡皮擦"}, [cite: 8]
-{en:"eve",zh:"前夕"}, [cite: 8]
-{en:"even",zh:"甚至"}, [cite: 8]
-{en:"evening",zh:"傍晚"}, [cite: 8]
-{en:"ever",zh:"曾經"}, [cite: 8]
-{en:"every",zh:"每一個(的)"}, [cite: 8]
-{en:"everyone",zh:"每一個人"}, [cite: 8]
-{en:"everything",zh:"每件事"}, [cite: 8]
-{en:"example",zh:"例子"}, [cite: 8]
-{en:"excellent",zh:"極好的"}, [cite: 8]
-{en:"except",zh:"除了...之外"}, [cite: 8]
-{en:"excited",zh:"感到興奮的"}, [cite: 8]
-{en:"exciting",zh:"令人興奮的"}, [cite: 8]
-{en:"excuse",zh:"原諒"}, [cite: 8]
-{en:"exercise",zh:"運動"}, [cite: 8]
-{en:"expensive",zh:"昂貴的"}, [cite: 8]
-{en:"experience",zh:"經驗"}, [cite: 8]
-{en:"eye",zh:"眼睛"}, [cite: 8]
-{en:"face",zh:"臉孔,面對"}, [cite: 8]
-{en:"fact",zh:"事實"}, [cite: 8]
-{en:"factory",zh:"工廠"}, [cite: 8]
-{en:"fail",zh:"失敗"}, [cite: 8]
-{en:"fall",zh:"秋天"}, [cite: 8]
-{en:"family",zh:"家庭"}, [cite: 8]
-{en:"famous",zh:"有名的"}, [cite: 8]
-{en:"fan",zh:"扇子,擁護者"}, [cite: 8]
-{en:"far",zh:"遠的"}, [cite: 8]
-{en:"farm",zh:"農田"}, [cite: 8]
-{en:"farmer",zh:"農夫"}, [cite: 8]
-{en:"fast",zh:"快的"}, [cite: 8]
-{en:"fat",zh:"胖的"}, [cite: 8]
-{en:"father",zh:"父親"}, [cite: 8]
-{en:"favorite",zh:"最喜愛的"}, [cite: 8]
-{en:"February",zh:"二月"}, [cite: 8]
-{en:"feed",zh:"餵"}, [cite: 8]
-{en:"feel",zh:"覺得"}, [cite: 8]
-{en:"festival",zh:"節慶"}, [cite: 8]
-{en:"fever",zh:"發燒"}, [cite: 8]
-{en:"few",zh:"少數的"}, [cite: 8]
-{en:"fifteen",zh:"十五"}, [cite: 8]
-{en:"fifteenth",zh:"第十五(的)"}, [cite: 8]
-{en:"fifth",zh:"第五(的)"}, [cite: 8]
-{en:"fifty",zh:"五十"}, [cite: 8]
-{en:"fight",zh:"打架"}, [cite: 8]
-{en:"fill",zh:"裝滿"}, [cite: 8]
-{en:"finally",zh:"最後"}, [cite: 8]
-{en:"find",zh:"找到"}, [cite: 8]
-{en:"fine",zh:"很好的"}, [cite: 8]
-{en:"finger",zh:"手指"}, [cite: 8]
-{en:"finish",zh:"完成"}, [cite: 8]
-{en:"fire",zh:"火焰,開火"}, [cite: 8]
-{en:"first",zh:"第一(的)"}, [cite: 8]
-{en:"fish",zh:"魚"}, [cite: 8]
-{en:"fisherman",zh:"漁夫"}, [cite: 8]
-{en:"five",zh:"五"}, [cite: 8]
-{en:"fix",zh:"修理"}, [cite: 8]
-{en:"floor",zh:"地板"}, [cite: 8]
-{en:"flower",zh:"花朵"}, [cite: 8]
-{en:"flute",zh:"笛"}, [cite: 8]
-{en:"fly",zh:"飛"}, [cite: 8]
-{en:"follow",zh:"遵循,跟隨"}, [cite: 8]
-{en:"food",zh:"食物"}, [cite: 8]
-{en:"foot",zh:"腳"}, [cite: 8]
-{en:"for",zh:"為了"}, [cite: 8]
-{en:"foreign",zh:"外國的"}, [cite: 8]
-{en:"foreigner",zh:"外國人"}, [cite: 8]
-{en:"forget",zh:"忘記"}, [cite: 8]
-{en:"fork",zh:"叉子"}, [cite: 8]
-{en:"forty",zh:"四十"}, [cite: 8]
-{en:"four",zh:"四"}, [cite: 8]
-{en:"fourteen",zh:"十四"}, [cite: 8]
-{en:"fourteenth",zh:"第十四(的)"}, [cite: 8]
-{en:"fourth",zh:"第四(的)"}, [cite: 8]
-{en:"fox",zh:"狐狸"}, [cite: 8]
-{en:"free",zh:"空閒的,免費"}, [cite: 8]
-{en:"French fries",zh:"炸薯條"}, [cite: 8]
-{en:"fresh",zh:"新鮮的"}, [cite: 8]
-{en:"Friday",zh:"星期五"}, [cite: 8]
-{en:"friend",zh:"朋友"}, [cite: 8]
-{en:"friendly",zh:"友善的"}, [cite: 8]
-{en:"frisbee",zh:"飛盤"}, [cite: 8]
-{en:"frog",zh:"青蛙"}, [cite: 8]
-{en:"from",zh:"從"}, [cite: 8]
-{en:"front",zh:"前面"}, [cite: 8]
-{en:"fruit",zh:"水果"}, [cite: 8]
-{en:"fry",zh:"油炸"}, [cite: 8]
-{en:"full",zh:"滿的"}, [cite: 8]
-{en:"fun",zh:"樂趣"}, [cite: 8]
-{en:"funny",zh:"好笑的"}, [cite: 8]
-{en:"future",zh:"未來"}, [cite: 10]
-{en:"game",zh:"比賽,遊戲"}, [cite: 10]
-{en:"garbage",zh:"垃圾"}, [cite: 10]
-{en:"garden",zh:"花園"}, [cite: 10]
-{en:"gas",zh:"瓦斯"}, [cite: 10]
-{en:"gate",zh:"大門"}, [cite: 10]
-{en:"get",zh:"得到"}, [cite: 10]
-{en:"ghost",zh:"鬼"}, [cite: 10]
-{en:"giant",zh:"巨大的,巨人"}, [cite: 10]
-{en:"gift",zh:"禮物"}, [cite: 10]
-{en:"girl",zh:"女孩"}, [cite: 10]
-{en:"give",zh:"給予"}, [cite: 10]
-{en:"glad",zh:"高興的"}, [cite: 10]
-{en:"glass",zh:"玻璃,玻璃杯"}, [cite: 10]
-{en:"glasses",zh:"眼鏡"}, [cite: 10]
-{en:"glove",zh:"手套"}, [cite: 10]
-{en:"glue",zh:"膠水"}, [cite: 10]
-{en:"go",zh:"去"}, [cite: 10]
-{en:"goat",zh:"山羊"}, [cite: 10]
-{en:"good",zh:"好的"}, [cite: 10]
-{en:"goodbye",zh:"再見"}, [cite: 10]
-{en:"goose",zh:"鵝"}, [cite: 10]
-{en:"grade",zh:"成績,年級"}, [cite: 10]
-{en:"gram",zh:"公克"}, [cite: 10]
-{en:"grandfather",zh:"祖父"}, [cite: 10]
-{en:"grandmother",zh:"祖母"}, [cite: 10]
-{en:"grape",zh:"葡萄"}, [cite: 10]
-{en:"grass",zh:"草"}, [cite: 10]
-{en:"gray",zh:"灰色的"}, [cite: 10]
-{en:"great",zh:"很棒的"}, [cite: 10]
-{en:"green",zh:"綠色(的)"}, [cite: 10]
-{en:"ground",zh:"地面"}, [cite: 10]
-{en:"group",zh:"團體"}, [cite: 10]
-{en:"grow",zh:"種植"}, [cite: 10]
-{en:"guava",zh:"番石榴"}, [cite: 10]
-{en:"guess",zh:"猜想"}, [cite: 10]
-{en:"guitar",zh:"吉他"}, [cite: 10]
-{en:"guy",zh:"傢伙"}, [cite: 10]
-{en:"gym",zh:"體育館"}, [cite: 10]
-{en:"habit",zh:"習慣"}, [cite: 10]
-{en:"hair",zh:"頭髮"}, [cite: 10]
-{en:"half",zh:"一半"}, [cite: 10]
-{en:"Halloween",zh:"萬聖節"}, [cite: 10]
-{en:"ham",zh:"火腿"}, [cite: 10]
-{en:"hamburger",zh:"漢堡"}, [cite: 10]
-{en:"hand",zh:"手"}, [cite: 10]
-{en:"handsome",zh:"英俊的"}, [cite: 10]
-{en:"hang",zh:"懸掛"}, [cite: 10]
-{en:"happen",zh:"發生"}, [cite: 10]
-{en:"happy",zh:"快樂的"}, [cite: 10]
-{en:"hard",zh:"困難的,硬的"}, [cite: 10]
-{en:"hard-working",zh:"努力工作的"}, [cite: 10]
-{en:"hat",zh:"帽子"}, [cite: 10]
-{en:"hate",zh:"討厭"}, [cite: 10]
-{en:"have",zh:"有"}, [cite: 10]
-{en:"he",zh:"他"}, [cite: 10]
-{en:"head",zh:"頭"}, [cite: 10]
-{en:"headache",zh:"頭痛"}, [cite: 10]
-{en:"health",zh:"健康"}, [cite: 10]
-{en:"healthy",zh:"健康的"}, [cite: 10]
-{en:"hear",zh:"聽"}, [cite: 10]
-{en:"heart",zh:"心"}, [cite: 10]
-{en:"heat",zh:"熱度,加熱"}, [cite: 10]
-{en:"heavy",zh:"重的"}, [cite: 10]
-{en:"hello",zh:"喂"}, [cite: 10]
-{en:"help",zh:"幫忙"}, [cite: 10]
-{en:"helpful",zh:"有幫助的"}, [cite: 10]
-{en:"hen",zh:"母雞"}, [cite: 10]
-{en:"here",zh:"這裡"}, [cite: 10]
-{en:"hey",zh:"哩"}, [cite: 10]
-{en:"hi",zh:"嗨"}, [cite: 10]
-{en:"hide",zh:"隱藏"}, [cite: 10]
-{en:"high",zh:"高的"}, [cite: 10]
-{en:"hike",zh:"徒步旅行"}, [cite: 10]
-{en:"hill",zh:"小山"}, [cite: 10]
-{en:"hippo",zh:"河馬"}, [cite: 10]
-{en:"history",zh:"歷史"}, [cite: 10]
-{en:"hit",zh:"打擊"}, [cite: 10]
-{en:"hobby",zh:"嗜好"}, [cite: 10]
-{en:"hold",zh:"拿著"}, [cite: 10]
-{en:"holiday",zh:"假日"}, [cite: 10]
-{en:"home",zh:"家"}, [cite: 10]
-{en:"homework",zh:"家庭作業"}, [cite: 10]
-{en:"honest",zh:"誠實的"}, [cite: 10]
-{en:"honey",zh:"蜂蜜"}, [cite: 10]
-{en:"hop",zh:"(單腳)跳"}, [cite: 10]
-{en:"hope",zh:"希望"}, [cite: 10]
-{en:"horse",zh:"馬"}, [cite: 10]
-{en:"hospital",zh:"醫院"}, [cite: 10]
-{en:"hot",zh:"熱的"}, [cite: 10]
-{en:"hot dog",zh:"熱狗"}, [cite: 10]
-{en:"hotel",zh:"旅社"}, [cite: 10]
-{en:"hour",zh:"小時"}, [cite: 10]
-{en:"house",zh:"房屋"}, [cite: 10]
-{en:"housewife",zh:"家庭主婦"}, [cite: 10]
-{en:"how",zh:"如何"}, [cite: 10]
-{en:"however",zh:"然而"}, [cite: 10]
-{en:"hundred",zh:"百"}, [cite: 10]
-{en:"hungry",zh:"飢餓的"}, [cite: 10]
-{en:"hunt",zh:"打獵"}, [cite: 10]
-{en:"hurry",zh:"趕忙"}, [cite: 12]
-{en:"hurt",zh:"受傷,疼痛"}, [cite: 12]
-{en:"husband",zh:"丈夫"}, [cite: 12]
-{en:"I",zh:"我"}, [cite: 12]
-{en:"ice",zh:"冰"}, [cite: 12]
-{en:"ice cream",zh:"冰淇淋"}, [cite: 12]
-{en:"idea",zh:"主意"}, [cite: 12]
-{en:"if",zh:"如果"}, [cite: 12]
-{en:"important",zh:"重要的"}, [cite: 12]
-{en:"in",zh:"在...裡面"}, [cite: 12]
-{en:"insect",zh:"昆蟲"}, [cite: 12]
-{en:"inside",zh:"在...內部"}, [cite: 12]
-{en:"interest",zh:"使...感興趣"}, [cite: 12]
-{en:"interested",zh:"感興趣的"}, [cite: 12]
-{en:"interesting",zh:"有趣的"}, [cite: 12]
-{en:"interview",zh:"訪問,面試"}, [cite: 12]
-{en:"Internet",zh:"網路"}, [cite: 12]
-{en:"into",zh:"到...之內"}, [cite: 12]
-{en:"invite",zh:"邀請"}, [cite: 12]
-{en:"island",zh:"島嶼"}, [cite: 12]
-{en:"it",zh:"它"}, [cite: 12]
-{en:"jacket",zh:"夾克"}, [cite: 12]
-{en:"January",zh:"一月"}, [cite: 12]
-{en:"jeans",zh:"牛仔褲"}, [cite: 12]
-{en:"job",zh:"工作"}, [cite: 12]
-{en:"jog",zh:"慢跑"}, [cite: 12]
-{en:"join",zh:"加入"}, [cite: 12]
-{en:"joy",zh:"歡樂"}, [cite: 12]
-{en:"juice",zh:"果汁"}, [cite: 12]
-{en:"July",zh:"七月"}, [cite: 12]
-{en:"jump",zh:"跳躍"}, [cite: 12]
-{en:"June",zh:"六月"}, [cite: 12]
-{en:"junior high school",zh:"國中"}, [cite: 12]
-{en:"just",zh:"只是,剛才"}, [cite: 12]
-{en:"kangaroo",zh:"袋鼠"}, [cite: 12]
-{en:"keep",zh:"保持"}, [cite: 12]
-{en:"key",zh:"鑰匙"}, [cite: 12]
-{en:"kick",zh:"踢"}, [cite: 12]
-{en:"kid",zh:"小孩"}, [cite: 12]
-{en:"kill",zh:"殺"}, [cite: 12]
-{en:"kilo(gram)",zh:"公斤"}, [cite: 12]
-{en:"kind",zh:"種類"}, [cite: 12]
-{en:"king",zh:"國王"}, [cite: 12]
-{en:"kiss",zh:"吻"}, [cite: 12]
-{en:"kitchen",zh:"廚房"}, [cite: 12]
-{en:"kite",zh:"風箏"}, [cite: 12]
-{en:"knee",zh:"膝蓋"}, [cite: 12]
-{en:"knife",zh:"刀子"}, [cite: 12]
-{en:"knock",zh:"敲"}, [cite: 12]
-{en:"know",zh:"知道"}, [cite: 12]
-{en:"knowledge",zh:"知識"}, [cite: 12]
-{en:"koala",zh:"無尾熊"}, [cite: 12]
-{en:"lake",zh:"湖"}, [cite: 12]
-{en:"lamp",zh:"燈"}, [cite: 12]
-{en:"land",zh:"土地"}, [cite: 12]
-{en:"language",zh:"語言"}, [cite: 12]
-{en:"lantern",zh:"燈籠"}, [cite: 12]
-{en:"large",zh:"大的"}, [cite: 12]
-{en:"last",zh:"最後的"}, [cite: 12]
-{en:"late",zh:"晚的"}, [cite: 12]
-{en:"later",zh:"稍後"}, [cite: 12]
-{en:"laugh",zh:"笑"}, [cite: 12]
-{en:"lawyer",zh:"律師"}, [cite: 12]
-{en:"lazy",zh:"懶惰的"}, [cite: 12]
-{en:"lead",zh:"引導"}, [cite: 12]
-{en:"leader",zh:"領導者"}, [cite: 12]
-{en:"learn",zh:"學習"}, [cite: 12]
-{en:"least",zh:"最少(的)"}, [cite: 12]
-{en:"leave",zh:"離開"}, [cite: 12]
-{en:"left",zh:"左邊"}, [cite: 12]
-{en:"leg",zh:"腿"}, [cite: 12]
-{en:"lemon",zh:"檸檬"}, [cite: 12]
-{en:"lend",zh:"借出"}, [cite: 12]
-{en:"less",zh:"較少的"}, [cite: 12]
-{en:"lesson",zh:"課"}, [cite: 12]
-{en:"let",zh:"讓"}, [cite: 12]
-{en:"letter",zh:"信"}, [cite: 12]
-{en:"lettuce",zh:"萵苣"}, [cite: 12]
-{en:"library",zh:"圖書館"}, [cite: 12]
-{en:"lid",zh:"蓋子"}, [cite: 12]
-{en:"lie",zh:"說謊"}, [cite: 12]
-{en:"life",zh:"生活"}, [cite: 12]
-{en:"light",zh:"燈光,輕的"}, [cite: 12]
-{en:"like",zh:"喜歡"}, [cite: 12]
-{en:"line",zh:"隊伍,線條"}, [cite: 12]
-{en:"lion",zh:"獅子"}, [cite: 12]
-{en:"lip",zh:"嘴唇"}, [cite: 12]
-{en:"list",zh:"表,名單"}, [cite: 12]
-{en:"listen",zh:"聽"}, [cite: 12]
-{en:"little",zh:"小的"}, [cite: 12]
-{en:"live",zh:"住,活的,實況"}, [cite: 12]
-{en:"living room",zh:"客廳"}, [cite: 12]
-{en:"lonely",zh:"寂寞的"}, [cite: 12]
-{en:"long",zh:"長的"}, [cite: 12]
-{en:"look",zh:"看"}, [cite: 12]
-{en:"lose",zh:"遺失"}, [cite: 12]
-{en:"loud",zh:"大聲的"}, [cite: 12]
-{en:"love",zh:"喜愛"}, [cite: 12]
-{en:"lovely",zh:"可愛的"}, [cite: 12]
-{en:"low",zh:"低的"}, [cite: 12]
-{en:"lucky",zh:"幸運的"}, [cite: 14]
-{en:"lunch",zh:"午餐"}, [cite: 14]
-{en:"machine",zh:"機器"}, [cite: 14]
-{en:"mad",zh:"瘋狂的"}, [cite: 14]
-{en:"magic",zh:"神奇的,魔術"}, [cite: 14]
-{en:"mail",zh:"信件"}, [cite: 14]
-{en:"mailman",zh:"郵差"}, [cite: 14]
-{en:"make",zh:"製作"}, [cite: 14]
-{en:"man",zh:"男人"}, [cite: 14]
-{en:"many",zh:"許多的"}, [cite: 14]
-{en:"map",zh:"地圖"}, [cite: 14]
-{en:"March",zh:"三月"}, [cite: 14]
-{en:"mark",zh:"做記號"}, [cite: 14]
-{en:"marker",zh:"簽字筆"}, [cite: 14]
-{en:"market",zh:"市場"}, [cite: 14]
-{en:"married",zh:"已婚的"}, [cite: 14]
-{en:"mask",zh:"面具"}, [cite: 14]
-{en:"mat",zh:"墊子"}, [cite: 14]
-{en:"math",zh:"數學"}, [cite: 14]
-{en:"matter",zh:"事情"}, [cite: 14]
-{en:"may",zh:"可能"}, [cite: 14]
-{en:"May",zh:"五月"}, [cite: 14]
-{en:"maybe",zh:"也許"}, [cite: 14]
-{en:"meal",zh:"一餐"}, [cite: 14]
-{en:"mean",zh:"意指"}, [cite: 14]
-{en:"meat",zh:"肉"}, [cite: 14]
-{en:"medicine",zh:"藥"}, [cite: 14]
-{en:"medium",zh:"中號〈的〉"}, [cite: 14]
-{en:"meet",zh:"遇見"}, [cite: 14]
-{en:"meeting",zh:"會議"}, [cite: 14]
-{en:"menu",zh:"菜單,選單"}, [cite: 14]
-{en:"mile",zh:"英里,哩"}, [cite: 14]
-{en:"milk",zh:"牛奶"}, [cite: 14]
-{en:"million",zh:"百萬"}, [cite: 14]
-{en:"mind",zh:"介意"}, [cite: 14]
-{en:"minute",zh:"分鐘"}, [cite: 14]
-{en:"Miss",zh:"小姐"}, [cite: 14]
-{en:"miss",zh:"想念"}, [cite: 14]
-{en:"mistake",zh:"錯誤"}, [cite: 14]
-{en:"modern",zh:"現代化的"}, [cite: 14]
-{en:"moment",zh:"片刻"}, [cite: 14]
-{en:"Monday",zh:"星期一"}, [cite: 14]
-{en:"money",zh:"錢"}, [cite: 14]
-{en:"monkey",zh:"猴子"}, [cite: 14]
-{en:"month",zh:"月份"}, [cite: 14]
-{en:"moon",zh:"月亮"}, [cite: 14]
-{en:"mop",zh:"拖地"}, [cite: 14]
-{en:"more",zh:"更多的"}, [cite: 14]
-{en:"morning",zh:"早上"}, [cite: 14]
-{en:"most",zh:"大部分的"}, [cite: 14]
-{en:"mother",zh:"母親"}, [cite: 14]
-{en:"motorcycle",zh:"機車"}, [cite: 14]
-{en:"mountain",zh:"山"}, [cite: 14]
-{en:"mouse",zh:"老鼠"}, [cite: 14]
-{en:"mouth",zh:"嘴巴"}, [cite: 14]
-{en:"move",zh:"移動"}, [cite: 14]
-{en:"movie",zh:"電影"}, [cite: 14]
-{en:"Mr.",zh:"先生"}, [cite: 14]
-{en:"Mrs.",zh:"太太"}, [cite: 14]
-{en:"MRT",zh:"捷運"}, [cite: 14]
-{en:"Ms.",zh:"女士"}, [cite: 14]
-{en:"much",zh:"許多(不可數)"}, [cite: 14]
-{en:"mud",zh:"泥巴"}, [cite: 14]
-{en:"museum",zh:"博物館"}, [cite: 14]
-{en:"music",zh:"音樂"}, [cite: 14]
-{en:"must",zh:"必須"}, [cite: 14]
-{en:"nail",zh:"釘子"}, [cite: 14]
-{en:"name",zh:"名字"}, [cite: 14]
-{en:"national",zh:"國家的"}, [cite: 14]
-{en:"near",zh:"在...附近"}, [cite: 14]
-{en:"neck",zh:"脖子"}, [cite: 14]
-{en:"need",zh:"需要"}, [cite: 14]
-{en:"neighbor",zh:"鄰居"}, [cite: 14]
-{en:"never",zh:"從不"}, [cite: 14]
-{en:"new",zh:"新的"}, [cite: 14]
-{en:"news",zh:"消息,新聞"}, [cite: 14]
-{en:"next",zh:"下一個"}, [cite: 14]
-{en:"nice",zh:"好的"}, [cite: 14]
-{en:"night",zh:"晚上"}, [cite: 14]
-{en:"nine",zh:"九"}, [cite: 14]
-{en:"nineteen",zh:"十九"}, [cite: 14]
-{en:"nineteenth",zh:"第十九"}, [cite: 14]
-{en:"ninety",zh:"九十"}, [cite: 14]
-{en:"ninth",zh:"第九"}, [cite: 14]
-{en:"no",zh:"沒有,不是"}, [cite: 14]
-{en:"nobody",zh:"沒有人"}, [cite: 14]
-{en:"nod",zh:"點頭"}, [cite: 14]
-{en:"noise",zh:"噪音"}, [cite: 14]
-{en:"noodle",zh:"麵條"}, [cite: 14]
-{en:"noon",zh:"中午"}, [cite: 14]
-{en:"north",zh:"北方"}, [cite: 14]
-{en:"nose",zh:"鼻子"}, [cite: 14]
-{en:"not",zh:"不,不是"}, [cite: 14]
-{en:"note",zh:"筆記"}, [cite: 14]
-{en:"notebook",zh:"筆記本,筆電"}, [cite: 14]
-{en:"nothing",zh:"沒東西,沒事"}, [cite: 14]
-{en:"notice",zh:"注意到"}, [cite: 14]
-{en:"November",zh:"十一月"}, [cite: 14]
-{en:"now",zh:"現在"}, [cite: 14]
-{en:"number",zh:"號碼"}, [cite: 14]
-{en:"nurse",zh:"護士"}, [cite: 16]
-{en:"o'clock",zh:"點鐘"}, [cite: 16]
-{en:"October",zh:"十月"}, [cite: 16]
-{en:"of",zh:"...的"}, [cite: 16]
-{en:"off",zh:"自...離開"}, [cite: 16]
-{en:"office",zh:"辦公室"}, [cite: 16]
-{en:"officer",zh:"官員"}, [cite: 16]
-{en:"often",zh:"時常"}, [cite: 16]
-{en:"oil",zh:"油"}, [cite: 16]
-{en:"OK",zh:"可以"}, [cite: 16]
-{en:"old",zh:"老的"}, [cite: 16]
-{en:"on",zh:"在...上面"}, [cite: 16]
-{en:"once",zh:"一次"}, [cite: 16]
-{en:"one",zh:"一"}, [cite: 16]
-{en:"only",zh:"只有"}, [cite: 16]
-{en:"open",zh:"打開,開放"}, [cite: 16]
-{en:"or",zh:"或"}, [cite: 16]
-{en:"orange",zh:"柳橙"}, [cite: 16]
-{en:"order",zh:"點餐,秩序"}, [cite: 16]
-{en:"other",zh:"其他的"}, [cite: 16]
-{en:"out",zh:"在外"}, [cite: 16]
-{en:"outside",zh:"在...外部"}, [cite: 16]
-{en:"over",zh:"結束"}, [cite: 16]
-{en:"own",zh:"自己的"}, [cite: 16]
-{en:"ox",zh:"公牛"}, [cite: 16]
-{en:"pack",zh:"包"}, [cite: 16]
-{en:"package",zh:"包裹"}, [cite: 16]
-{en:"page",zh:"頁"}, [cite: 16]
-{en:"paint",zh:"繪畫"}, [cite: 16]
-{en:"pair",zh:"一雙"}, [cite: 16]
-{en:"pants",zh:"長褲"}, [cite: 16]
-{en:"papaya",zh:"木瓜"}, [cite: 16]
-{en:"paper",zh:"紙"}, [cite: 16]
-{en:"parent(s)",zh:"父(母)親"}, [cite: 16]
-{en:"park",zh:"公園"}, [cite: 16]
-{en:"part",zh:"部分"}, [cite: 16]
-{en:"party",zh:"派對"}, [cite: 16]
-{en:"pass",zh:"通過"}, [cite: 16]
-{en:"past",zh:"經過"}, [cite: 16]
-{en:"paste",zh:"黏貼,漿糊"}, [cite: 16]
-{en:"pay",zh:"付錢"}, [cite: 16]
-{en:"PE(physical education)",zh:"體育"}, [cite: 16]
-{en:"peach",zh:"桃子"}, [cite: 16]
-{en:"pear",zh:"梨子"}, [cite: 16]
-{en:"pen",zh:"筆"}, [cite: 16]
-{en:"pencil",zh:"鉛筆"}, [cite: 16]
-{en:"people",zh:"人們,人民"}, [cite: 16]
-{en:"perhaps",zh:"或許"}, [cite: 16]
-{en:"person",zh:"人"}, [cite: 16]
-{en:"pet",zh:"寵物"}, [cite: 16]
-{en:"photo",zh:"相片"}, [cite: 16]
-{en:"piano",zh:"鋼琴"}, [cite: 16]
-{en:"pick",zh:"撿拾"}, [cite: 16]
-{en:"picnic",zh:"野餐"}, [cite: 16]
-{en:"picture",zh:"圖片,照片"}, [cite: 16]
-{en:"pie",zh:"派"}, [cite: 16]
-{en:"piece",zh:"片"}, [cite: 16]
-{en:"pig",zh:"豬"}, [cite: 16]
-{en:"pin",zh:"大頭針"}, [cite: 16]
-{en:"pink",zh:"粉紅色(的)"}, [cite: 16]
-{en:"pipe",zh:"管"}, [cite: 16]
-{en:"pizza",zh:"披薩"}, [cite: 16]
-{en:"place",zh:"地方"}, [cite: 16]
-{en:"plan",zh:"計畫"}, [cite: 16]
-{en:"planet",zh:"行星"}, [cite: 16]
-{en:"plant",zh:"植物"}, [cite: 16]
-{en:"plate",zh:"盤子"}, [cite: 16]
-{en:"play",zh:"玩"}, [cite: 16]
-{en:"player",zh:"球員,玩家"}, [cite: 16]
-{en:"playground",zh:"操場"}, [cite: 16]
-{en:"pleasure",zh:"樂趣,使高興"}, [cite: 16]
-{en:"please",zh:"請"}, [cite: 16]
-{en:"p.m.",zh:"下午"}, [cite: 16]
-{en:"pocket",zh:"口袋"}, [cite: 16]
-{en:"point",zh:"指著,得分"}, [cite: 16]
-{en:"police",zh:"警察"}, [cite: 16]
-{en:"polite",zh:"有禮貌的"}, [cite: 16]
-{en:"pond",zh:"池塘"}, [cite: 16]
-{en:"pool",zh:"游泳池"}, [cite: 16]
-{en:"poor",zh:"貧困的,可憐的"}, [cite: 16]
-{en:"popcorn",zh:"爆米花"}, [cite: 16]
-{en:"popular",zh:"受歡迎的"}, [cite: 16]
-{en:"pork",zh:"豬肉"}, [cite: 16]
-{en:"possible",zh:"可能的"}, [cite: 16]
-{en:"post office",zh:"郵局"}, [cite: 16]
-{en:"postcard",zh:"明信片"}, [cite: 16]
-{en:"pot",zh:"罐,壺,鍋子"}, [cite: 16]
-{en:"pound",zh:"磅"}, [cite: 16]
-{en:"practice",zh:"練習"}, [cite: 16]
-{en:"pray",zh:"祈禱"}, [cite: 16]
-{en:"prepare",zh:"準備"}, [cite: 16]
-{en:"present",zh:"禮物"}, [cite: 16]
-{en:"pretty",zh:"漂亮的,非常"}, [cite: 16]
-{en:"price",zh:"價格"}, [cite: 16]
-{en:"princess",zh:"公主"}, [cite: 16]
-{en:"prize",zh:"獎品,獎金"}, [cite: 16]
-{en:"problem",zh:"問題"}, [cite: 16]
-{en:"program",zh:"節目"}, [cite: 16]
-{en:"proud",zh:"驕傲的"}, [cite: 16]
-{en:"public",zh:"公立的,公眾的"}, [cite: 16]
-{en:"pull",zh:"拉"}, [cite: 18]
-{en:"pumpkin",zh:"南瓜"}, [cite: 18]
-{en:"purple",zh:"紫色的"}, [cite: 18]
-{en:"push",zh:"推"}, [cite: 18]
-{en:"put",zh:"放"}, [cite: 18]
-{en:"quarter",zh:"15分鐘,1/4"}, [cite: 18]
-{en:"queen",zh:"皇后"}, [cite: 18]
-{en:"question",zh:"問題"}, [cite: 18]
-{en:"quick",zh:"迅速的"}, [cite: 18]
-{en:"quiet",zh:"安靜的"}, [cite: 18]
-{en:"quite",zh:"相當"}, [cite: 18]
-{en:"quiz",zh:"小考"}, [cite: 18]
-{en:"rabbit",zh:"兔子"}, [cite: 18]
-{en:"race",zh:"賽跑"}, [cite: 18]
-{en:"radio",zh:"收音機"}, [cite: 18]
-{en:"railroad",zh:"鐵路"}, [cite: 18]
-{en:"rain",zh:"下雨"}, [cite: 18]
-{en:"rainbow",zh:"彩虹"}, [cite: 18]
-{en:"rainy",zh:"下雨的"}, [cite: 18]
-{en:"raise",zh:"舉起,養育"}, [cite: 18]
-{en:"rat",zh:"(大)老鼠,鼠輩"}, [cite: 18]
-{en:"read",zh:"讀"}, [cite: 18]
-{en:"ready",zh:"準備好的"}, [cite: 18]
-{en:"real",zh:"真的"}, [cite: 18]
-{en:"really",zh:"真地"}, [cite: 18]
-{en:"recorder",zh:"錄音機"}, [cite: 18]
-{en:"red",zh:"紅色(的)"}, [cite: 18]
-{en:"refrigerator",zh:"冰箱"}, [cite: 18]
-{en:"remember",zh:"記得"}, [cite: 18]
-{en:"repeat",zh:"重複"}, [cite: 18]
-{en:"reporter",zh:"記者"}, [cite: 18]
-{en:"rest",zh:"休息"}, [cite: 18]
-{en:"restaurant",zh:"餐館"}, [cite: 18]
-{en:"restroom",zh:"洗手間"}, [cite: 18]
-{en:"rice",zh:"米飯"}, [cite: 18]
-{en:"rich",zh:"有錢的"}, [cite: 18]
-{en:"ride",zh:"騎"}, [cite: 18]
-{en:"right",zh:"右邊"}, [cite: 18]
-{en:"ring",zh:"戒指"}, [cite: 18]
-{en:"river",zh:"河"}, [cite: 18]
-{en:"road",zh:"道路"}, [cite: 18]
-{en:"robot",zh:"機器人"}, [cite: 18]
-{en:"ROC",zh:"中華民國"}, [cite: 18]
-{en:"rock",zh:"岩石"}, [cite: 18]
-{en:"roll",zh:"滾"}, [cite: 18]
-{en:"roller-skate",zh:"溜冰"}, [cite: 18]
-{en:"room",zh:"房間"}, [cite: 18]
-{en:"rope",zh:"繩子"}, [cite: 18]
-{en:"rose",zh:"玫瑰"}, [cite: 18]
-{en:"round",zh:"圓形的"}, [cite: 18]
-{en:"row",zh:"劃(船)"}, [cite: 18]
-{en:"rule",zh:"規則"}, [cite: 18]
-{en:"ruler",zh:"尺"}, [cite: 18]
-{en:"run",zh:"跑"}, [cite: 18]
-{en:"sad",zh:"悲傷的"}, [cite: 18]
-{en:"safe",zh:"安全的"}, [cite: 18]
-{en:"sail",zh:"航行"}, [cite: 18]
-{en:"salad",zh:"沙拉"}, [cite: 18]
-{en:"sale",zh:"出售"}, [cite: 18]
-{en:"salesman",zh:"推銷員"}, [cite: 18]
-{en:"salt",zh:"鹽"}, [cite: 18]
-{en:"same",zh:"相同的"}, [cite: 18]
-{en:"sandwich",zh:"三明治"}, [cite: 18]
-{en:"Saturday",zh:"星期六"}, [cite: 18]
-{en:"sacred",zh:"神聖的"}, [cite: 18]
-{en:"save",zh:"節省,挽救"}, [cite: 18]
-{en:"say",zh:"說"}, [cite: 18]
-{en:"school",zh:"學校"}, [cite: 18]
-{en:"science",zh:"科學"}, [cite: 18]
-{en:"scooter",zh:"速克達機車"}, [cite: 18]
-{en:"screen",zh:"螢幕"}, [cite: 18]
-{en:"sea",zh:"海"}, [cite: 18]
-{en:"season",zh:"季節"}, [cite: 18]
-{en:"seat",zh:"座位"}, [cite: 18]
-{en:"second",zh:"第二(的)"}, [cite: 18]
-{en:"secretary",zh:"秘書"}, [cite: 18]
-{en:"see",zh:"看"}, [cite: 18]
-{en:"seed",zh:"種子"}, [cite: 18]
-{en:"seesaw",zh:"蹺蹺板"}, [cite: 18]
-{en:"seldom",zh:"很少"}, [cite: 18]
-{en:"sell",zh:"賣"}, [cite: 18]
-{en:"send",zh:"寄"}, [cite: 18]
-{en:"senior high school",zh:"高中"}, [cite: 18]
-{en:"sentence",zh:"句子"}, [cite: 18]
-{en:"September",zh:"九月"}, [cite: 18]
-{en:"serious",zh:"嚴重的"}, [cite: 18]
-{en:"(TV) set",zh:"(電視)機"}, [cite: 18]
-{en:"seven",zh:"七"}, [cite: 18]
-{en:"seventeen",zh:"十七"}, [cite: 18]
-{en:"seventeenth",zh:"第十七(的)"}, [cite: 18]
-{en:"seventh",zh:"第七(的)"}, [cite: 18]
-{en:"seventy",zh:"七十"}, [cite: 18]
-{en:"several",zh:"幾個的"}, [cite: 18]
-{en:"shake",zh:"搖動"}, [cite: 18]
-{en:"shall",zh:"將會,好嗎?"}, [cite: 18]
-{en:"shape",zh:"形狀"}, [cite: 18]
-{en:"share",zh:"分享"}, [cite: 18]
-{en:"shark",zh:"鯊魚"}, [cite: 18]
-{en:"she",zh:"她"}, [cite: 18]
-{en:"sheep",zh:"綿羊"}, [cite: 18]
-{en:"ship",zh:"船"}, [cite: 20]
-{en:"shirt",zh:"襯衫"}, [cite: 20]
-{en:"shoe(s)",zh:"鞋子"}, [cite: 20]
-{en:"shop",zh:"商店"}, [cite: 20]
-{en:"shopkeeper",zh:"店主"}, [cite: 20]
-{en:"short",zh:"短的"}, [cite: 20]
-{en:"shorts",zh:"短褲"}, [cite: 20]
-{en:"should",zh:"應該"}, [cite: 20]
-{en:"shoulder",zh:"肩膀"}, [cite: 20]
-{en:"shout",zh:"喊叫"}, [cite: 20]
-{en:"show",zh:"指示,表演"}, [cite: 20]
-{en:"shy",zh:"害羞的"}, [cite: 20]
-{en:"sick",zh:"生病的"}, [cite: 20]
-{en:"side",zh:"旁邊,邊,面"}, [cite: 20]
-{en:"sidewalk",zh:"人行道"}, [cite: 20]
-{en:"sight",zh:"視力"}, [cite: 20]
-{en:"sign",zh:"標誌"}, [cite: 20]
-{en:"simple",zh:"簡單的"}, [cite: 20]
-{en:"since",zh:"自從"}, [cite: 20]
-{en:"sing",zh:"唱歌"}, [cite: 20]
-{en:"singer",zh:"歌手"}, [cite: 20]
-{en:"sir",zh:"先生"}, [cite: 20]
-{en:"sister",zh:"姊妹"}, [cite: 20]
-{en:"sit",zh:"坐"}, [cite: 20]
-{en:"six",zh:"六"}, [cite: 20]
-{en:"sixteen",zh:"十六"}, [cite: 20]
-{en:"sixteenth",zh:"第十六(的〉"}, [cite: 20]
-{en:"sixth",zh:"第六(的〉"}, [cite: 20]
-{en:"sixty",zh:"六十"}, [cite: 20]
-{en:"size",zh:"尺寸"}, [cite: 20]
-{en:"skate",zh:"溜冰"}, [cite: 20]
-{en:"skirt",zh:"裙子"}, [cite: 20]
-{en:"sky",zh:"天空"}, [cite: 20]
-{en:"sleep",zh:"睡覺"}, [cite: 20]
-{en:"slide",zh:"滑坡,滑動"}, [cite: 20]
-{en:"slim",zh:"苗條的"}, [cite: 20]
-{en:"slow",zh:"慢的"}, [cite: 20]
-{en:"small",zh:"小"}, [cite: 20]
-{en:"smart",zh:"聰明的"}, [cite: 20]
-{en:"smell",zh:"聞起來"}, [cite: 20]
-{en:"smile",zh:"微笑"}, [cite: 20]
-{en:"smoke",zh:"煙霧,抽菸"}, [cite: 20]
-{en:"snack",zh:"點心"}, [cite: 20]
-{en:"snake",zh:"蛇"}, [cite: 20]
-{en:"snow",zh:"下雪"}, [cite: 20]
-{en:"snowman",zh:"雪人"}, [cite: 20]
-{en:"snowy",zh:"下雪的"}, [cite: 20]
-{en:"so",zh:"如此地"}, [cite: 20]
-{en:"soccer",zh:"足球"}, [cite: 20]
-{en:"socks",zh:"襪子"}, [cite: 20]
-{en:"sofa",zh:"沙發"}, [cite: 20]
-{en:"soldier",zh:"軍人"}, [cite: 20]
-{en:"some",zh:"一些"}, [cite: 20]
-{en:"someone",zh:"某人"}, [cite: 20]
-{en:"something",zh:"某事"}, [cite: 20]
-{en:"sometimes",zh:"有時候"}, [cite: 20]
-{en:"somewhere",zh:"某處"}, [cite: 20]
-{en:"son",zh:"兒子"}, [cite: 20]
-{en:"song",zh:"歌曲"}, [cite: 20]
-{en:"soon",zh:"不久,即將"}, [cite: 20]
-{en:"sore",zh:"疼痛的"}, [cite: 20]
-{en:"sorry",zh:"抱歉"}, [cite: 20]
-{en:"sound",zh:"聲音,聽起來"}, [cite: 20]
-{en:"soup",zh:"湯"}, [cite: 20]
-{en:"south",zh:"南方"}, [cite: 20]
-{en:"space",zh:"空間"}, [cite: 20]
-{en:"spaghetti",zh:"義大利麵"}, [cite: 20]
-{en:"speak",zh:"說"}, [cite: 20]
-{en:"special",zh:"特別的"}, [cite: 20]
-{en:"spell",zh:"拼字"}, [cite: 20]
-{en:"spend",zh:"花(錢,時間)"}, [cite: 20]
-{en:"spider",zh:"蜘蛛"}, [cite: 20]
-{en:"spoon",zh:"湯匙"}, [cite: 20]
-{en:"sport",zh:"運動"}, [cite: 20]
-{en:"spring",zh:"春天"}, [cite: 20]
-{en:"square",zh:"正方形的"}, [cite: 20]
-{en:"stairs",zh:"樓梯"}, [cite: 20]
-{en:"stamp",zh:"郵票"}, [cite: 20]
-{en:"stand",zh:"站立"}, [cite: 20]
-{en:"star",zh:"星星"}, [cite: 20]
-{en:"start",zh:"開始"}, [cite: 20]
-{en:"station",zh:"車站,站,局"}, [cite: 20]
-{en:"stay",zh:"停留"}, [cite: 20]
-{en:"(beef) steak",zh:"(牛)排"}, [cite: 20]
-{en:"still",zh:"仍然"}, [cite: 20]
-{en:"stomach",zh:"胃"}, [cite: 20]
-{en:"stop",zh:"停"}, [cite: 20]
-{en:"store",zh:"商店"}, [cite: 20]
-{en:"straight",zh:"直的"}, [cite: 20]
-{en:"story",zh:"故事"}, [cite: 20]
-{en:"strange",zh:"奇怪的"}, [cite: 20]
-{en:"stranger",zh:"陌生人"}, [cite: 20]
-{en:"strawberry",zh:"草莓"}, [cite: 20]
-{en:"street",zh:"街道"}, [cite: 20]
-{en:"strong",zh:"強壯的"}, [cite: 20]
-{en:"student",zh:"學生"}, [cite: 20]
-{en:"study",zh:"研讀,學習"}, [cite: 20]
-{en:"stupid",zh:"笨的"}, [cite: 20]
-{en:"subject",zh:"科目"}, [cite: 20]
-{en:"successful",zh:"成功的"}, [cite: 20]
-{en:"sugar",zh:"糖"}, [cite: 21]
-{en:"summer",zh:"夏天"}, [cite: 21]
-{en:"sun",zh:"太陽"}, [cite: 21]
-{en:"Sunday",zh:"星期日"}, [cite: 21]
-{en:"sunny",zh:"晴朗的"}, [cite: 21]
-{en:"supermarket",zh:"超級市場"}, [cite: 21]
-{en:"sure",zh:"確定的"}, [cite: 21]
-{en:"surf",zh:"衝浪"}, [cite: 21]
-{en:"surprise",zh:"使…驚訝"}, [cite: 21]
-{en:"surprised",zh:"感到驚訝的"}, [cite: 21]
-{en:"sweater",zh:"毛衣"}, [cite: 21]
-{en:"sweet",zh:"甜的"}, [cite: 21]
-{en:"swim",zh:"游泳"}, [cite: 21]
-{en:"swing",zh:"鞦韆,搖擺"}, [cite: 21]
-{en:"table",zh:"桌子"}, [cite: 21]
-{en:"tail",zh:"尾巴"}, [cite: 21]
-{en:"Taiwan",zh:"臺灣"}, [cite: 21]
-{en:"take",zh:"拿"}, [cite: 21]
-{en:"talk",zh:"說話"}, [cite: 21, 22]
-{en:"tall",zh:"高的"}, [cite: 22]
-{en:"tape",zh:"錄音帶"}, [cite: 22]
-{en:"taste",zh:"品嚐"}, [cite: 22]
-{en:"taxi",zh:"計程車"}, [cite: 22]
-{en:"tea",zh:"茶"}, [cite: 22]
-{en:"teach",zh:"教導"}, [cite: 22]
-{en:"teacher",zh:"教師"}, [cite: 22]
-{en:"team",zh:"團隊"}, [cite: 22]
-{en:"teenager",zh:"青少年"}, [cite: 22]
-{en:"telephone",zh:"電話"}, [cite: 22]
-{en:"television",zh:"電視"}, [cite: 22]
-{en:"tell",zh:"告訴"}, [cite: 22]
-{en:"temple",zh:"寺廟"}, [cite: 22]
-{en:"ten",zh:"十"}, [cite: 22]
-{en:"tennis",zh:"網球"}, [cite: 22]
-{en:"tenth",zh:"第十〈的〉"}, [cite: 22]
-{en:"terrible",zh:"可怕的"}, [cite: 23]
-{en:"test",zh:"考試,測試"}, [cite: 23]
-{en:"than",zh:"比…"}, [cite: 23]
-{en:"thank",zh:"謝謝"}, [cite: 23]
-{en:"that",zh:"那個"}, [cite: 23]
-{en:"the",zh:"這/那"}, [cite: 23]
-{en:"theater",zh:"戲院"}, [cite: 23]
-{en:"then",zh:"那時"}, [cite: 23]
-{en:"there",zh:"那裡"}, [cite: 23]
-{en:"these",zh:"這些"}, [cite: 23]
-{en:"they",zh:"他們"}, [cite: 23]
-{en:"thick",zh:"厚的"}, [cite: 23]
-{en:"thin",zh:"瘦的"}, [cite: 23]
-{en:"thing",zh:"事情"}, [cite: 23]
-{en:"think",zh:"想,思考"}, [cite: 23]
-{en:"third",zh:"第三〈的〉"}, [cite: 23]
-{en:"thirsty",zh:"口渴的"}, [cite: 23]
-{en:"thirteen",zh:"十三"}, [cite: 23]
-{en:"thirteenth",zh:"第十三"}, [cite: 23]
-{en:"thirty",zh:"三十"}, [cite: 23]
-{en:"this",zh:"這個"}, [cite: 24]
-{en:"throat",zh:"喉嚨"}, [cite: 24]
-{en:"throw",zh:"丟"}, [cite: 24]
-{en:"those",zh:"那些"}, [cite: 24]
-{en:"though",zh:"雖然"}, [cite: 24]
-{en:"thousand",zh:"千"}, [cite: 24]
-{en:"three",zh:"三"}, [cite: 24]
-{en:"Thursday",zh:"星期四"}, [cite: 24]
-{en:"ticket",zh:"票券"}, [cite: 24]
-{en:"tidy",zh:"整潔的"}, [cite: 24]
-{en:"tiger",zh:"老虎"}, [cite: 24]
-{en:"tie",zh:"領帶,捆,繫"}, [cite: 24]
-{en:"time",zh:"時間"}, [cite: 24]
-{en:"tired",zh:"疲倦的"}, [cite: 24]
-{en:"to",zh:"到"}, [cite: 24]
-{en:"toast",zh:"土司,烘烤"}, [cite: 24]
-{en:"today",zh:"今天"}, [cite: 24]
-{en:"toe",zh:"腳趾"}, [cite: 24]
-{en:"together",zh:"一起"}, [cite: 24]
-{en:"tomato",zh:"番茄"}, [cite: 24]
-{en:"tomorrow",zh:"明天"}, [cite: 24]
-{en:"tonight",zh:"今晚"}, [cite: 25]
-{en:"too",zh:"也,太..."}, [cite: 25]
-{en:"tooth",zh:"牙齒"}, [cite: 25]
-{en:"top",zh:"頂端"}, [cite: 25]
-{en:"total",zh:"總計"}, [cite: 25]
-{en:"touch",zh:"碰觸"}, [cite: 25]
-{en:"towel",zh:"毛巾"}, [cite: 25]
-{en:"town",zh:"城鎮"}, [cite: 25]
-{en:"toy",zh:"玩具"}, [cite: 25]
-{en:"traffic",zh:"交通"}, [cite: 25]
-{en:"train",zh:"火車"}, [cite: 25]
-{en:"trash",zh:"垃圾"}, [cite: 25]
-{en:"treat",zh:"請客,對待"}, [cite: 25]
-{en:"tree",zh:"樹"}, [cite: 25]
-{en:"trick",zh:"惡作劇"}, [cite: 25]
-{en:"trip",zh:"(短程)旅行"}, [cite: 25]
-{en:"trouble",zh:"麻煩"}, [cite: 25]
-{en:"truck",zh:"卡車"}, [cite: 25]
-{en:"true",zh:"真實的"}, [cite: 25]
-{en:"try",zh:"嘗試"}, [cite: 25]
-{en:"T-shirt",zh:"T 恤"}, [cite: 26]
-{en:"tub",zh:"浴缸,洗澡"}, [cite: 26]
-{en:"Tuesday",zh:"星期二"}, [cite: 26]
-{en:"turkey",zh:"火雞"}, [cite: 26]
-{en:"turn",zh:"轉動,轉彎"}, [cite: 27]
-{en:"turtle",zh:"烏龜"}, [cite: 27]
-{en:"twelfth",zh:"第十二(的)"}, [cite: 27]
-{en:"twelve",zh:"十二"}, [cite: 27]
-{en:"twenty",zh:"二十"}, [cite: 27]
-{en:"twentieth",zh:"第二十(的)"}, [cite: 27]
-{en:"twice",zh:"兩次"}, [cite: 27]
-{en:"two",zh:"二"}, [cite: 27]
-{en:"type",zh:"打字"}, [cite: 27]
-{en:"typhoon",zh:"颱風"}, [cite: 27]
-{en:"umbrella",zh:"雨傘"}, [cite: 27]
-{en:"uncle",zh:"伯(叔)"}, [cite: 27]
-{en:"under",zh:"在…之下"}, [cite: 27]
-{en:"understand",zh:"了解"}, [cite: 27]
-{en:"unhappy",zh:"不快樂的"}, [cite: 27]
-{en:"uniform",zh:"制服"}, [cite: 27]
-{en:"until",zh:"直到"}, [cite: 27]
-{en:"up",zh:"向上"}, [cite: 27]
-{en:"USA",zh:"美國"}, [cite: 27]
-{en:"use",zh:"使用"}, [cite: 28]
-{en:"useful",zh:"有用的"}, [cite: 28]
-{en:"usually",zh:"通常"}, [cite: 28]
-{en:"vacation",zh:"假期"}, [cite: 28]
-{en:"vegetable",zh:"蔬菜"}, [cite: 28]
-{en:"very",zh:"非常"}, [cite: 28]
-{en:"vest",zh:"背心"}, [cite: 28]
-{en:"video",zh:"錄影帶"}, [cite: 28]
-{en:"violin",zh:"小提琴"}, [cite: 28]
-{en:"visit",zh:"參觀"}, [cite: 28]
-{en:"voice",zh:"聲音"}, [cite: 28]
-{en:"wait",zh:"等待"}, [cite: 28]
-{en:"waiter",zh:"男服務生"}, [cite: 28]
-{en:"waitress",zh:"女服務生"}, [cite: 28]
-{en:"wake",zh:"醒來"}, [cite: 28]
-{en:"walk",zh:"走路"}, [cite: 28]
-{en:"wall",zh:"牆壁"}, [cite: 28]
-{en:"wallet",zh:"皮夾"}, [cite: 28]
-{en:"want",zh:"想要"}, [cite: 28]
-{en:"warm",zh:"溫暖的"}, [cite: 28]
-{en:"wash",zh:"清洗"}, [cite: 29]
-{en:"watch",zh:"看"}, [cite: 29]
-{en:"water",zh:"水"}, [cite: 29]
-{en:"watermelon",zh:"西瓜"}, [cite: 29]
-{en:"wave",zh:"波浪"}, [cite: 29]
-{en:"way",zh:"道路,方法"}, [cite: 29]
-{en:"we",zh:"我們"}, [cite: 29]
-{en:"weak",zh:"弱的"}, [cite: 29]
-{en:"wear",zh:"穿"}, [cite: 29]
-{en:"weather",zh:"天氣"}, [cite: 29]
-{en:"Wednesday",zh:"星期三"}, [cite: 29]
-{en:"week",zh:"星期"}, [cite: 29]
-{en:"weekend",zh:"週末"}, [cite: 29]
-{en:"welcome",zh:"受歡迎的"}, [cite: 29]
-{en:"well",zh:"好地"}, [cite: 29]
-{en:"west",zh:"西方"}, [cite: 29]
-{en:"wet",zh:"濕的"}, [cite: 29]
-{en:"whale",zh:"鯨魚"}, [cite: 29]
-{en:"what",zh:"什麼"}, [cite: 29]
-{en:"when",zh:"何時"}, [cite: 30]
-{en:"where",zh:"何處"}, [cite: 30]
-{en:"whether",zh:"是否"}, [cite: 30]
-{en:"which",zh:"哪一個"}, [cite: 30]
-{en:"white",zh:"白色(的)"}, [cite: 30]
-{en:"who",zh:"誰"}, [cite: 30]
-{en:"whose",zh:"誰的"}, [cite: 30]
-{en:"why",zh:"為什麼"}, [cite: 30]
-{en:"wife",zh:"妻子"}, [cite: 30]
-{en:"will",zh:"將會..."}, [cite: 30]
-{en:"win",zh:"贏"}, [cite: 30]
-{en:"wind",zh:"風"}, [cite: 30]
-{en:"window",zh:"窗戶"}, [cite: 30]
-{en:"windy",zh:"多風的"}, [cite: 30]
-{en:"winter",zh:"冬天"}, [cite: 30]
-{en:"wise",zh:"明智的"}, [cite: 30]
-{en:"wish",zh:"祝福…"}, [cite: 30]
-{en:"with",zh:"和"}, [cite: 30]
-{en:"without",zh:"沒有"}, [cite: 30]
-{en:"woman",zh:"女人"}, [cite: 30]
-{en:"wonderful",zh:"極好的"}, [cite: 31]
-{en:"word",zh:"字"}, [cite: 31]
-{en:"work",zh:"工作"}, [cite: 31]
-{en:"workbook",zh:"作業本"}, [cite: 31]
-{en:"worker",zh:"工人"}, [cite: 31]
-{en:"world",zh:"世界"}, [cite: 31]
-{en:"worry",zh:"擔心"}, [cite: 31]
-{en:"write",zh:"寫"}, [cite: 31]
-{en:"writer",zh:"作家"}, [cite: 31]
-{en:"wrong",zh:"錯誤的"}, [cite: 31]
-{en:"yard",zh:"庭院"}, [cite: 31]
-{en:"year",zh:"年"}, [cite: 31]
-{en:"yellow",zh:"黃色(的)"}, [cite: 31]
-{en:"yes",zh:"是"}, [cite: 31]
-{en:"yesterday",zh:"昨天"}, [cite: 31]
-{en:"yet",zh:"尚未"}, [cite: 31]
-{en:"you",zh:"你(們)"}, [cite: 31]
-{en:"young",zh:"年輕的"}, [cite: 31]
-{en:"yummy",zh:"好吃的"}, [cite: 31]
-{en:"zebra",zh:"斑馬"}, [cite: 31]
-{en:"zero",zh:"零"}, [cite: 31]
-{en:"zoo",zh:"動物園"}, [cite: 32]  
+{en:"bat",zh:"蝙蝠"}
+{en:"bath",zh:"洗澡"}
+{en:"bathroom",zh:"浴室"}
+{en:"be",zh:"是"}
+{en:"beach",zh:"海灘"}
+{en:"bean",zh:"豆"}
+{en:"bear",zh:"熊"}
+{en:"beautiful",zh:"美麗的"}
+{en:"because",zh:"因為"}
+{en:"become",zh:"變成"}
+{en:"bed",zh:"床"}
+{en:"bedroom",zh:"臥室"}
+{en:"bee",zh:"蜜蜂"}
+{en:"beef",zh:"牛肉"}
+{en:"before",zh:"在...之前"}
+{en:"begin",zh:"開始"}
+{en:"behind",zh:"在...後面"}
+{en:"believe",zh:"相信"}
+{en:"bell",zh:"鈴"}
+{en:"belong",zh:"屬於"}
+{en:"below",zh:"在...下方"}
+{en:"belt",zh:"皮帶"}
+{en:"bench",zh:"長椅"}
+{en:"beside",zh:"在...旁邊"}
+{en:"between",zh:"在...之間"}
+{en:"bike",zh:"腳踏車"}
+{en:"big",zh:"大的"}
+{en:"bird",zh:"鳥"}
+{en:"birthday",zh:"生日"}
+{en:"bite",zh:"咬"}
+{en:"black",zh:"黑色(的)"}
+{en:"blackboard",zh:"黑板"}
+{en:"blanket",zh:"毯子"}
+{en:"blind",zh:"瞎的"}
+{en:"block",zh:"街區"}
+{en:"blow",zh:"吹"}
+{en:"blue",zh:"藍色(的)"}
+{en:"boat",zh:"船"}
+{en:"body",zh:"身體"}
+{en:"boil",zh:"煮沸"}
+{en:"book",zh:"書"}
+{en:"bookstore",zh:"書店"}
+{en:"bored",zh:"感到厭煩的"}
+{en:"boring",zh:"無聊的"}
+{en:"born",zh:"出生"}
+{en:"borrow",zh:"借入"}
+{en:"boss",zh:"老板"}
+{en:"both",zh:"兩者都"}
+{en:"bottle",zh:"瓶子"}
+{en:"bottom",zh:"底部"}
+{en:"bow",zh:"敬禮"}
+{en:"bowl",zh:"碗"}
+{en:"box",zh:"盒子"}
+{en:"boy",zh:"男孩"}
+{en:"bread",zh:"麵包"}
+{en:"break",zh:"打破"}
+{en:"breakfast",zh:"早餐"}
+{en:"bridge",zh:"橋"}
+{en:"bright",zh:"明亮的"}
+{en:"bring",zh:"帶來"}
+{en:"brother",zh:"兄弟"}
+{en:"brown",zh:"棕色(的)"}
+{en:"brush",zh:"刷"}
+{en:"bug",zh:"小蟲"}
+{en:"build",zh:"建造"}
+{en:"bun",zh:"小圓麵包"}
+{en:"burn",zh:"燃燒"}
+{en:"bus",zh:"公車"}
+{en:"business",zh:"生意"}
+{en:"businessman",zh:"商人"}
+{en:"busy",zh:"忙碌的"}
+{en:"but",zh:"但是"}
+{en:"butter",zh:"奶油"}
+{en:"butterfly",zh:"蝴蝶"}
+{en:"buy",zh:"買"}
+{en:"by",zh:"藉著"}
+{en:"cage",zh:"籠子"}
+{en:"cake",zh:"蛋糕"}
+{en:"call",zh:"打電話"}
+{en:"cap",zh:"(無邊)帽"}
+{en:"camp",zh:"露營"}
+{en:"can",zh:"能夠"}
+{en:"candle",zh:"蠟燭"}
+{en:"candy",zh:"糖果"}
+{en:"camera",zh:"照相機"}
+{en:"car",zh:"車子"}
+{en:"card",zh:"卡片"}
+{en:"care",zh:"關心"}
+{en:"careful",zh:"仔細的"}
+{en:"carry",zh:"攜帶"}
+{en:"case",zh:"情形"}
+{en:"castle",zh:"城堡"}
+{en:"cat",zh:"貓"}
+{en:"catch",zh:"趕上"}
+{en:"celebrate",zh:"慶祝"}
+{en:"cell phone",zh:"手機"}
+{en:"cent",zh:"〈一〉分錢"}
+{en:"center",zh:"中心"}
+{en:"centimeter",zh:"公分"}
+{en:"chair",zh:"椅子"}
+{en:"chalk",zh:"粉筆"}
+{en:"chance",zh:"機會"}
+{en:"change",zh:"交換,零錢"}
+{en:"cheap",zh:"便宜的"}
+{en:"cheat",zh:"欺騙"}
+{en:"check",zh:"檢查"}
+{en:"cheer",zh:"歡呼"}
+{en:"cheese",zh:"乳酪"}
+{en:"chess",zh:"西洋棋"}
+{en:"chicken",zh:"雞肉"}
+{en:"child",zh:"小孩"}
+{en:"China",zh:"中國"}
+{en:"Chinese",zh:"中國人,中文"}
+{en:"chocolate",zh:"巧克力"}
+{en:"choose",zh:"選擇"}
+{en:"chopsticks",zh:"筷子"}
+{en:"Christmas",zh:"聖誕節"}
+{en:"church",zh:"教堂"}
+{en:"circle",zh:"圓圈"}
+{en:"city",zh:"城市"}
+{en:"clap",zh:"拍手"}
+{en:"class",zh:"班級"}
+{en:"classmate",zh:"同班同學"}
+{en:"classroom",zh:"教室"}
+{en:"clean",zh:"打掃"}
+{en:"clear",zh:"清楚的"}
+{en:"clerk",zh:"店員"}
+{en:"climb",zh:"爬"}
+{en:"clock",zh:"時鐘"}
+{en:"close",zh:"關上"}
+{en:"clothes",zh:"衣服"}
+{en:"cloudy",zh:"多雲的"}
+{en:"club",zh:"社團"}
+{en:"coat",zh:"大衣"}
+{en:"coffee",zh:"咖啡"}
+{en:"Coke",zh:"可樂"}
+{en:"cold",zh:"寒冷的"}
+{en:"collect",zh:"收集"}
+{en:"color",zh:"顏色"}
+{en:"come",zh:"來"}
+{en:"comb",zh:"梳子"}
+{en:"comfortable",zh:"舒適的"}
+{en:"comic",zh:"連環漫畫"}
+{en:"common",zh:"共同的"}
+{en:"computer",zh:"電腦"}
+{en:"convenient",zh:"方便的"}
+{en:"cook",zh:"煮飯"}
+{en:"cookie",zh:"餅乾"}
+{en:"cool",zh:"涼爽的"}
+{en:"copy",zh:"抄寫,複製"}
+{en:"corner",zh:"角落"}
+{en:"correct",zh:"正確的"}
+{en:"cost",zh:"價值"}
+{en:"couch",zh:"沙發"}
+{en:"count",zh:"計算"}
+{en:"country",zh:"鄉村"}
+{en:"course",zh:"課程"}
+{en:"cousin",zh:"堂,表兄弟姊妹"}
+{en:"cover",zh:"覆蓋,封面,掩護"}
+{en:"cow",zh:"母牛"}
+{en:"cowboy",zh:"牛仔"}
+{en:"crazy",zh:"瘋狂的"}
+{en:"cross",zh:"越過"}
+{en:"cry",zh:"哭"}
+{en:"cup",zh:"茶杯"}
+{en:"cut",zh:"切"}
+{en:"cute",zh:"可愛的"}
+{en:"dance",zh:"跳舞"}
+{en:"dangerous",zh:"危險的"}
+{en:"dark",zh:"黑暗的"}
+{en:"date",zh:"日期"}
+{en:"daughter",zh:"女兒"}
+{en:"day",zh:"日子"}
+{en:"dead",zh:"死的"}
+{en:"dear",zh:"親愛的"}
+{en:"December",zh:"十二月"}
+{en:"decide",zh:"決定"}
+{en:"delicious",zh:"美味的"}
+{en:"dentist",zh:"牙醫"}
+{en:"department store",zh:"百貨公司"}
+{en:"desk",zh:"書桌"}
+{en:"dictionary",zh:"字典"}
+{en:"die",zh:"死掉"}
+{en:"different",zh:"不同的"}
+{en:"difficult",zh:"困難的"}
+{en:"dig",zh:"挖掘"}
+{en:"dining room",zh:"飯廳"}
+{en:"dinner",zh:"晚餐"}
+{en:"dirty",zh:"骯髒的"}
+{en:"dish",zh:"盤子,菜餚"}
+{en:"do",zh:"做"}
+{en:"doctor",zh:"醫生"}
+{en:"dodge ball",zh:"躲避球"}
+{en:"dog",zh:"狗"}
+{en:"doll",zh:"洋娃娃"}
+{en:"dollar",zh:"元"}
+{en:"door",zh:"門"}
+{en:"dot",zh:"點"}
+{en:"down",zh:"向下"}
+{en:"dozen",zh:"〈一〉打"}
+{en:"dragon",zh:"龍"}
+{en:"draw",zh:"畫"}
+{en:"drawer",zh:"抽屜"}
+{en:"dream",zh:"(做)夢"}
+{en:"dress",zh:"洋裝"}
+{en:"drink",zh:"喝"}
+{en:"drive",zh:"駕駛"}
+{en:"driver",zh:"駕駛人"}
+{en:"drop",zh:"掉落"}
+{en:"drum",zh:"鼓"}
+{en:"dry",zh:"乾的"}
+{en:"duck",zh:"鴨"}
+{en:"dumpling",zh:"包餡食物,餃子"}
+{en:"during",zh:"在...期間"}
+{en:"each",zh:"每一(的〉"}
+{en:"ear",zh:"耳朵"}
+{en:"early",zh:"早的"}
+{en:"earth",zh:"地球"}
+{en:"east",zh:"東方"}
+{en:"Easter",zh:"復活節"}
+{en:"easy",zh:"容易的"}
+{en:"eat",zh:"吃"}
+{en:"egg",zh:"蛋"}
+{en:"eight",zh:"八"}
+{en:"eighteen",zh:"十八"}
+{en:"eighth",zh:"第八"}
+{en:"eighty",zh:"八十"}
+{en:"either",zh:"也不"}
+{en:"elementary school",zh:"小學"}
+{en:"elephant",zh:"大象"}
+{en:"eleven",zh:"十一"}
+{en:"eleventh",zh:"第十一(的)"}
+{en:"else",zh:"其他的"}
+{en:"e-mail",zh:"電子郵件"}
+{en:"end",zh:"結束"}
+{en:"engineer",zh:"工程師"}
+{en:"English",zh:"英語"}
+{en:"enjoy",zh:"喜愛"}
+{en:"enough",zh:"足夠的"}
+{en:"enter",zh:"進入"}
+{en:"envelope",zh:"信"}
+{en:"eraser",zh:"橡皮擦"}
+{en:"eve",zh:"前夕"}
+{en:"even",zh:"甚至"}
+{en:"evening",zh:"傍晚"}
+{en:"ever",zh:"曾經"}
+{en:"every",zh:"每一個(的)"}
+{en:"everyone",zh:"每一個人"}
+{en:"everything",zh:"每件事"}
+{en:"example",zh:"例子"}
+{en:"excellent",zh:"極好的"}
+{en:"except",zh:"除了...之外"}
+{en:"excited",zh:"感到興奮的"}
+{en:"exciting",zh:"令人興奮的"}
+{en:"excuse",zh:"原諒"}
+{en:"exercise",zh:"運動"}
+{en:"expensive",zh:"昂貴的"}
+{en:"experience",zh:"經驗"}
+{en:"eye",zh:"眼睛"}
+{en:"face",zh:"臉孔,面對"}
+{en:"fact",zh:"事實"}
+{en:"factory",zh:"工廠"}
+{en:"fail",zh:"失敗"}
+{en:"fall",zh:"秋天"}
+{en:"family",zh:"家庭"}
+{en:"famous",zh:"有名的"}
+{en:"fan",zh:"扇子,擁護者"}
+{en:"far",zh:"遠的"}
+{en:"farm",zh:"農田"}
+{en:"farmer",zh:"農夫"}
+{en:"fast",zh:"快的"}
+{en:"fat",zh:"胖的"}
+{en:"father",zh:"父親"}
+{en:"favorite",zh:"最喜愛的"}
+{en:"February",zh:"二月"}
+{en:"feed",zh:"餵"}
+{en:"feel",zh:"覺得"}
+{en:"festival",zh:"節慶"}
+{en:"fever",zh:"發燒"}
+{en:"few",zh:"少數的"}
+{en:"fifteen",zh:"十五"}
+{en:"fifteenth",zh:"第十五(的)"}
+{en:"fifth",zh:"第五(的)"}
+{en:"fifty",zh:"五十"}
+{en:"fight",zh:"打架"}
+{en:"fill",zh:"裝滿"}
+{en:"finally",zh:"最後"}
+{en:"find",zh:"找到"}
+{en:"fine",zh:"很好的"}
+{en:"finger",zh:"手指"}
+{en:"finish",zh:"完成"}
+{en:"fire",zh:"火焰,開火"}
+{en:"first",zh:"第一(的)"}
+{en:"fish",zh:"魚"}
+{en:"fisherman",zh:"漁夫"}
+{en:"five",zh:"五"}
+{en:"fix",zh:"修理"}
+{en:"floor",zh:"地板"}
+{en:"flower",zh:"花朵"}
+{en:"flute",zh:"笛"}
+{en:"fly",zh:"飛"}
+{en:"follow",zh:"遵循,跟隨"}
+{en:"food",zh:"食物"}
+{en:"foot",zh:"腳"}
+{en:"for",zh:"為了"}
+{en:"foreign",zh:"外國的"}
+{en:"foreigner",zh:"外國人"}
+{en:"forget",zh:"忘記"}
+{en:"fork",zh:"叉子"}
+{en:"forty",zh:"四十"}
+{en:"four",zh:"四"}
+{en:"fourteen",zh:"十四"}
+{en:"fourteenth",zh:"第十四(的)"}
+{en:"fourth",zh:"第四(的)"}
+{en:"fox",zh:"狐狸"}
+{en:"free",zh:"空閒的,免費"}
+{en:"French fries",zh:"炸薯條"}
+{en:"fresh",zh:"新鮮的"}
+{en:"Friday",zh:"星期五"}
+{en:"friend",zh:"朋友"}
+{en:"friendly",zh:"友善的"}
+{en:"frisbee",zh:"飛盤"}
+{en:"frog",zh:"青蛙"}
+{en:"from",zh:"從"}
+{en:"front",zh:"前面"}
+{en:"fruit",zh:"水果"}
+{en:"fry",zh:"油炸"}
+{en:"full",zh:"滿的"}
+{en:"fun",zh:"樂趣"}
+{en:"funny",zh:"好笑的"}
+{en:"future",zh:"未來"}
+{en:"game",zh:"比賽,遊戲"}
+{en:"garbage",zh:"垃圾"}
+{en:"garden",zh:"花園"}
+{en:"gas",zh:"瓦斯"}
+{en:"gate",zh:"大門"}
+{en:"get",zh:"得到"}
+{en:"ghost",zh:"鬼"}
+{en:"giant",zh:"巨大的,巨人"}
+{en:"gift",zh:"禮物"}
+{en:"girl",zh:"女孩"}
+{en:"give",zh:"給予"}
+{en:"glad",zh:"高興的"}
+{en:"glass",zh:"玻璃,玻璃杯"}
+{en:"glasses",zh:"眼鏡"}
+{en:"glove",zh:"手套"}
+{en:"glue",zh:"膠水"}
+{en:"go",zh:"去"}
+{en:"goat",zh:"山羊"}
+{en:"good",zh:"好的"}
+{en:"goodbye",zh:"再見"}
+{en:"goose",zh:"鵝"}
+{en:"grade",zh:"成績,年級"}
+{en:"gram",zh:"公克"}
+{en:"grandfather",zh:"祖父"}
+{en:"grandmother",zh:"祖母"}
+{en:"grape",zh:"葡萄"}
+{en:"grass",zh:"草"}
+{en:"gray",zh:"灰色的"}
+{en:"great",zh:"很棒的"}
+{en:"green",zh:"綠色(的)"}
+{en:"ground",zh:"地面"}
+{en:"group",zh:"團體"}
+{en:"grow",zh:"種植"}
+{en:"guava",zh:"番石榴"}
+{en:"guess",zh:"猜想"}
+{en:"guitar",zh:"吉他"}
+{en:"guy",zh:"傢伙"}
+{en:"gym",zh:"體育館"}
+{en:"habit",zh:"習慣"}
+{en:"hair",zh:"頭髮"}
+{en:"half",zh:"一半"}
+{en:"Halloween",zh:"萬聖節"}
+{en:"ham",zh:"火腿"}
+{en:"hamburger",zh:"漢堡"}
+{en:"hand",zh:"手"}
+{en:"handsome",zh:"英俊的"}
+{en:"hang",zh:"懸掛"}
+{en:"happen",zh:"發生"}
+{en:"happy",zh:"快樂的"}
+{en:"hard",zh:"困難的,硬的"}
+{en:"hard-working",zh:"努力工作的"}
+{en:"hat",zh:"帽子"}
+{en:"hate",zh:"討厭"}
+{en:"have",zh:"有"}
+{en:"he",zh:"他"}
+{en:"head",zh:"頭"}
+{en:"headache",zh:"頭痛"}
+{en:"health",zh:"健康"}
+{en:"healthy",zh:"健康的"}
+{en:"hear",zh:"聽"}
+{en:"heart",zh:"心"}
+{en:"heat",zh:"熱度,加熱"}
+{en:"heavy",zh:"重的"}
+{en:"hello",zh:"喂"}
+{en:"help",zh:"幫忙"}
+{en:"helpful",zh:"有幫助的"}
+{en:"hen",zh:"母雞"}
+{en:"here",zh:"這裡"}
+{en:"hey",zh:"哩"}
+{en:"hi",zh:"嗨"}
+{en:"hide",zh:"隱藏"}
+{en:"high",zh:"高的"}
+{en:"hike",zh:"徒步旅行"}
+{en:"hill",zh:"小山"}
+{en:"hippo",zh:"河馬"}
+{en:"history",zh:"歷史"}
+{en:"hit",zh:"打擊"}
+{en:"hobby",zh:"嗜好"}
+{en:"hold",zh:"拿著"}
+{en:"holiday",zh:"假日"}
+{en:"home",zh:"家"}
+{en:"homework",zh:"家庭作業"}
+{en:"honest",zh:"誠實的"}
+{en:"honey",zh:"蜂蜜"}
+{en:"hop",zh:"(單腳)跳"}
+{en:"hope",zh:"希望"}
+{en:"horse",zh:"馬"}
+{en:"hospital",zh:"醫院"}
+{en:"hot",zh:"熱的"}
+{en:"hot dog",zh:"熱狗"}
+{en:"hotel",zh:"旅社"}
+{en:"hour",zh:"小時"}
+{en:"house",zh:"房屋"}
+{en:"housewife",zh:"家庭主婦"}
+{en:"how",zh:"如何"}
+{en:"however",zh:"然而"}
+{en:"hundred",zh:"百"}
+{en:"hungry",zh:"飢餓的"}
+{en:"hunt",zh:"打獵"}
+{en:"hurry",zh:"趕忙"}
+{en:"hurt",zh:"受傷,疼痛"}
+{en:"husband",zh:"丈夫"}
+{en:"I",zh:"我"}
+{en:"ice",zh:"冰"}
+{en:"ice cream",zh:"冰淇淋"}
+{en:"idea",zh:"主意"}
+{en:"if",zh:"如果"}
+{en:"important",zh:"重要的"}
+{en:"in",zh:"在...裡面"}
+{en:"insect",zh:"昆蟲"}
+{en:"inside",zh:"在...內部"}
+{en:"interest",zh:"使...感興趣"}
+{en:"interested",zh:"感興趣的"}
+{en:"interesting",zh:"有趣的"}
+{en:"interview",zh:"訪問,面試"}
+{en:"Internet",zh:"網路"}
+{en:"into",zh:"到...之內"}
+{en:"invite",zh:"邀請"}
+{en:"island",zh:"島嶼"}
+{en:"it",zh:"它"}
+{en:"jacket",zh:"夾克"}
+{en:"January",zh:"一月"}
+{en:"jeans",zh:"牛仔褲"}
+{en:"job",zh:"工作"}
+{en:"jog",zh:"慢跑"}
+{en:"join",zh:"加入"}
+{en:"joy",zh:"歡樂"}
+{en:"juice",zh:"果汁"}
+{en:"July",zh:"七月"}
+{en:"jump",zh:"跳躍"}
+{en:"June",zh:"六月"}
+{en:"junior high school",zh:"國中"}
+{en:"just",zh:"只是,剛才"}
+{en:"kangaroo",zh:"袋鼠"}
+{en:"keep",zh:"保持"}
+{en:"key",zh:"鑰匙"}
+{en:"kick",zh:"踢"}
+{en:"kid",zh:"小孩"}
+{en:"kill",zh:"殺"}
+{en:"kilo(gram)",zh:"公斤"}
+{en:"kind",zh:"種類"}
+{en:"king",zh:"國王"}
+{en:"kiss",zh:"吻"}
+{en:"kitchen",zh:"廚房"}
+{en:"kite",zh:"風箏"}
+{en:"knee",zh:"膝蓋"}
+{en:"knife",zh:"刀子"}
+{en:"knock",zh:"敲"}
+{en:"know",zh:"知道"}
+{en:"knowledge",zh:"知識"}
+{en:"koala",zh:"無尾熊"}
+{en:"lake",zh:"湖"}
+{en:"lamp",zh:"燈"}
+{en:"land",zh:"土地"}
+{en:"language",zh:"語言"}
+{en:"lantern",zh:"燈籠"}
+{en:"large",zh:"大的"}
+{en:"last",zh:"最後的"}
+{en:"late",zh:"晚的"}
+{en:"later",zh:"稍後"}
+{en:"laugh",zh:"笑"}
+{en:"lawyer",zh:"律師"}
+{en:"lazy",zh:"懶惰的"}
+{en:"lead",zh:"引導"}
+{en:"leader",zh:"領導者"}
+{en:"learn",zh:"學習"}
+{en:"least",zh:"最少(的)"}
+{en:"leave",zh:"離開"}
+{en:"left",zh:"左邊"}
+{en:"leg",zh:"腿"}
+{en:"lemon",zh:"檸檬"}
+{en:"lend",zh:"借出"}
+{en:"less",zh:"較少的"}
+{en:"lesson",zh:"課"}
+{en:"let",zh:"讓"}
+{en:"letter",zh:"信"}
+{en:"lettuce",zh:"萵苣"}
+{en:"library",zh:"圖書館"}
+{en:"lid",zh:"蓋子"}
+{en:"lie",zh:"說謊"}
+{en:"life",zh:"生活"}
+{en:"light",zh:"燈光,輕的"}
+{en:"like",zh:"喜歡"}
+{en:"line",zh:"隊伍,線條"}
+{en:"lion",zh:"獅子"}
+{en:"lip",zh:"嘴唇"}
+{en:"list",zh:"表,名單"}
+{en:"listen",zh:"聽"}
+{en:"little",zh:"小的"}
+{en:"live",zh:"住,活的,實況"}
+{en:"living room",zh:"客廳"}
+{en:"lonely",zh:"寂蹟的"}
+{en:"long",zh:"長的"}
+{en:"look",zh:"看"}
+{en:"lose",zh:"遺失"}
+{en:"loud",zh:"大聲的"}
+{en:"love",zh:"喜愛"}
+{en:"lovely",zh:"可愛的"}
+{en:"low",zh:"低的"}
+{en:"lucky",zh:"幸運的"}
+{en:"lunch",zh:"午餐"}
+{en:"machine",zh:"機器"}
+{en:"mad",zh:"瘋狂的"}
+{en:"magic",zh:"神奇的,魔術"}
+{en:"mail",zh:"信件"}
+{en:"mailman",zh:"郵差"}
+{en:"make",zh:"製作"}
+{en:"man",zh:"男人"}
+{en:"many",zh:"許多的"}
+{en:"map",zh:"地圖"}
+{en:"March",zh:"三月"}
+{en:"mark",zh:"做記號"}
+{en:"marker",zh:"簽字筆"}
+{en:"market",zh:"市場"}
+{en:"married",zh:"已婚的"}
+{en:"mask",zh:"面具"}
+{en:"mat",zh:"墊子"}
+{en:"math",zh:"數學"}
+{en:"matter",zh:"事情"}
+{en:"may",zh:"可能"}
+{en:"May",zh:"五月"}
+{en:"maybe",zh:"也許"}
+{en:"meal",zh:"一餐"}
+{en:"mean",zh:"意指"}
+{en:"meat",zh:"肉"}
+{en:"medicine",zh:"藥"}
+{en:"medium",zh:"中號〈的〉"}
+{en:"meet",zh:"遇見"}
+{en:"meeting",zh:"會議"}
+{en:"menu",zh:"菜單,選單"}
+{en:"mile",zh:"英里,哩"}
+{en:"milk",zh:"牛奶"}
+{en:"million",zh:"百萬"}
+{en:"mind",zh:"介意"}
+{en:"minute",zh:"分鐘"}
+{en:"Miss",zh:"小姐"}
+{en:"miss",zh:"想念"}
+{en:"mistake",zh:"錯誤"}
+{en:"modern",zh:"現代化的"}
+{en:"moment",zh:"片刻"}
+{en:"Monday",zh:"星期一"}
+{en:"money",zh:"錢"}
+{en:"monkey",zh:"猴子"}
+{en:"month",zh:"月份"}
+{en:"moon",zh:"月亮"}
+{en:"mop",zh:"拖地"}
+{en:"more",zh:"更多的"}
+{en:"morning",zh:"早上"}
+{en:"most",zh:"大部分的"}
+{en:"mother",zh:"母親"}
+{en:"motorcycle",zh:"機車"}
+{en:"mountain",zh:"山"}
+{en:"mouse",zh:"老鼠"}
+{en:"mouth",zh:"嘴巴"}
+{en:"move",zh:"移動"}
+{en:"movie",zh:"電影"}
+{en:"Mr.",zh:"先生"}
+{en:"Mrs.",zh:"太太"}
+{en:"MRT",zh:"捷運"}
+{en:"Ms.",zh:"女士"}
+{en:"much",zh:"許多(不可數)"}
+{en:"mud",zh:"泥巴"}
+{en:"museum",zh:"博物館"}
+{en:"music",zh:"音樂"}
+{en:"must",zh:"必須"}
+{en:"nail",zh:"釘子"}
+{en:"name",zh:"名字"}
+{en:"national",zh:"國家的"}
+{en:"near",zh:"在...附近"}
+{en:"neck",zh:"脖子"}
+{en:"need",zh:"需要"}
+{en:"neighbor",zh:"鄰居"}
+{en:"never",zh:"從不"}
+{en:"new",zh:"新的"}
+{en:"news",zh:"消息,新聞"}
+{en:"next",zh:"下一個"}
+{en:"nice",zh:"好的"}
+{en:"night",zh:"晚上"}
+{en:"nine",zh:"九"}
+{en:"nineteen",zh:"十九"}
+{en:"nineteenth",zh:"第十九"}
+{en:"ninety",zh:"九十"}
+{en:"ninth",zh:"第九"}
+{en:"no",zh:"沒有,不是"}
+{en:"nobody",zh:"沒有人"}
+{en:"nod",zh:"點頭"}
+{en:"noise",zh:"噪音"}
+{en:"noodle",zh:"麵條"}
+{en:"noon",zh:"中午"}
+{en:"north",zh:"北方"}
+{en:"nose",zh:"鼻子"}
+{en:"not",zh:"不,不是"}
+{en:"note",zh:"筆記"}
+{en:"notebook",zh:"筆記本,筆電"}
+{en:"nothing",zh:"沒東西,沒事"}
+{en:"notice",zh:"注意到"}
+{en:"November",zh:"十一月"}
+{en:"now",zh:"現在"}
+{en:"number",zh:"號碼"}
+{en:"nurse",zh:"護士"}
+{en:"o'clock",zh:"點鐘"}
+{en:"October",zh:"十月"}
+{en:"of",zh:"...的"}
+{en:"off",zh:"自...離開"}
+{en:"office",zh:"辦公室"}
+{en:"officer",zh:"官員"}
+{en:"often",zh:"時常"}
+{en:"oil",zh:"油"}
+{en:"OK",zh:"可以"}
+{en:"old",zh:"老的"}
+{en:"on",zh:"在...上面"}
+{en:"once",zh:"一次"}
+{en:"one",zh:"一"}
+{en:"only",zh:"只有"}
+{en:"open",zh:"打開,開放"}
+{en:"or",zh:"或"}
+{en:"orange",zh:"柳橙"}
+{en:"order",zh:"點餐,秩序"}
+{en:"other",zh:"其他的"}
+{en:"out",zh:"在外"}
+{en:"outside",zh:"在...外部"}
+{en:"over",zh:"結束"}
+{en:"own",zh:"自己的"}
+{en:"ox",zh:"公牛"}
+{en:"pack",zh:"包"}
+{en:"package",zh:"包裹"}
+{en:"page",zh:"頁"}
+{en:"paint",zh:"繪畫"}
+{en:"pair",zh:"一雙"}
+{en:"pants",zh:"長褲"}
+{en:"papaya",zh:"木瓜"}
+{en:"paper",zh:"紙"}
+{en:"parent(s)",zh:"父(母)親"}
+{en:"park",zh:"公園"}
+{en:"part",zh:"部分"}
+{en:"party",zh:"派對"}
+{en:"pass",zh:"通過"}
+{en:"past",zh:"經過"}
+{en:"paste",zh:"黏貼,漿糊"}
+{en:"pay",zh:"付錢"}
+{en:"PE(physical education)",zh:"體育"}
+{en:"peach",zh:"桃子"}
+{en:"pear",zh:"梨子"}
+{en:"pen",zh:"筆"}
+{en:"pencil",zh:"鉛筆"}
+{en:"people",zh:"人們,人民"}
+{en:"perhaps",zh:"或許"}
+{en:"person",zh:"人"}
+{en:"pet",zh:"寵物"}
+{en:"photo",zh:"相片"}
+{en:"piano",zh:"鋼琴"}
+{en:"pick",zh:"撿拾"}
+{en:"picnic",zh:"野餐"}
+{en:"picture",zh:"圖片,照片"}
+{en:"pie",zh:"派"}
+{en:"piece",zh:"片"}
+{en:"pig",zh:"豬"}
+{en:"pin",zh:"大頭針"}
+{en:"pink",zh:"粉紅色(的)"}
+{en:"pipe",zh:"管"}
+{en:"pizza",zh:"披薩"}
+{en:"place",zh:"地方"}
+{en:"plan",zh:"計畫"}
+{en:"planet",zh:"行星"}
+{en:"plant",zh:"植物"}
+{en:"plate",zh:"盤子"}
+{en:"play",zh:"玩"}
+{en:"player",zh:"球員,玩家"}
+{en:"playground",zh:"操場"}
+{en:"pleasure",zh:"樂趣,使高興"}
+{en:"please",zh:"請"}
+{en:"p.m.",zh:"下午"}
+{en:"pocket",zh:"口袋"}
+{en:"point",zh:"指著,得分"}
+{en:"police",zh:"警察"}
+{en:"polite",zh:"有禮貌的"}
+{en:"pond",zh:"池塘"}
+{en:"pool",zh:"游泳池"}
+{en:"poor",zh:"貧困的,可憐的"}
+{en:"popcorn",zh:"爆米花"}
+{en:"popular",zh:"受歡迎的"}
+{en:"pork",zh:"豬肉"}
+{en:"possible",zh:"可能的"}
+{en:"post office",zh:"郵局"}
+{en:"postcard",zh:"明信片"}
+{en:"pot",zh:"罐,壺,鍋子"}
+{en:"pound",zh:"磅"}
+{en:"practice",zh:"練習"}
+{en:"pray",zh:"祈禱"}
+{en:"prepare",zh:"準備"}
+{en:"present",zh:"禮物"}
+{en:"pretty",zh:"漂亮的,非常"}
+{en:"price",zh:"價格"}
+{en:"princess",zh:"公主"}
+{en:"prize",zh:"獎品,獎金"}
+{en:"problem",zh:"問題"}
+{en:"program",zh:"節目"}
+{en:"proud",zh:"驕傲的"}
+{en:"public",zh:"公立的,公眾的"}
+{en:"pull",zh:"拉"}
+{en:"pumpkin",zh:"南瓜"}
+{en:"purple",zh:"紫色的"}
+{en:"push",zh:"推"}
+{en:"put",zh:"放"}
+{en:"quarter",zh:"15分鐘,1/4"}
+{en:"queen",zh:"皇后"}
+{en:"question",zh:"問題"}
+{en:"quick",zh:"迅速的"}
+{en:"quiet",zh:"安靜的"}
+{en:"quite",zh:"相當"}
+{en:"quiz",zh:"小考"}
+{en:"rabbit",zh:"兔子"}
+{en:"race",zh:"賽跑"}
+{en:"radio",zh:"收音機"}
+{en:"railroad",zh:"鐵路"}
+{en:"rain",zh:"下雨"}
+{en:"rainbow",zh:"彩虹"}
+{en:"rainy",zh:"下雨的"}
+{en:"raise",zh:"舉起,養育"}
+{en:"rat",zh:"(大)老鼠,鼠輩"}
+{en:"read",zh:"讀"}
+{en:"ready",zh:"準備好的"}
+{en:"real",zh:"真的"}
+{en:"really",zh:"真地"}
+{en:"recorder",zh:"錄音機"}
+{en:"red",zh:"紅色(的)"}
+{en:"refrigerator",zh:"冰箱"}
+{en:"remember",zh:"記得"}
+{en:"repeat",zh:"重複"}
+{en:"reporter",zh:"記者"}
+{en:"rest",zh:"休息"}
+{en:"restaurant",zh:"餐館"}
+{en:"restroom",zh:"洗手間"}
+{en:"rice",zh:"米飯"}
+{en:"rich",zh:"有錢的"}
+{en:"ride",zh:"騎"}
+{en:"right",zh:"右邊"}
+{en:"ring",zh:"戒指"}
+{en:"river",zh:"河"}
+{en:"road",zh:"道路"}
+{en:"robot",zh:"機器人"}
+{en:"ROC",zh:"中華民國"}
+{en:"rock",zh:"岩石"}
+{en:"roll",zh:"滾"}
+{en:"roller-skate",zh:"溜冰"}
+{en:"room",zh:"房間"}
+{en:"rope",zh:"繩子"}
+{en:"rose",zh:"玫瑰"}
+{en:"round",zh:"圓形的"}
+{en:"row",zh:"劃(船)"}
+{en:"rule",zh:"規則"}
+{en:"ruler",zh:"尺"}
+{en:"run",zh:"跑"}
+{en:"sad",zh:"悲傷的"}
+{en:"safe",zh:"安全的"}
+{en:"sail",zh:"航行"}
+{en:"salad",zh:"沙拉"}
+{en:"sale",zh:"出售"}
+{en:"salesman",zh:"推銷員"}
+{en:"salt",zh:"鹽"}
+{en:"same",zh:"相同的"}
+{en:"sandwich",zh:"三明治"}
+{en:"Saturday",zh:"星期六"}
+{en:"sacred",zh:"神聖的"}
+{en:"save",zh:"節省,挽救"}
+{en:"say",zh:"說"}
+{en:"school",zh:"學校"}
+{en:"science",zh:"科學"}
+{en:"scooter",zh:"速克達機車"}
+{en:"screen",zh:"螢幕"}
+{en:"sea",zh:"海"}
+{en:"season",zh:"季節"}
+{en:"seat",zh:"座位"}
+{en:"second",zh:"第二(的)"}
+{en:"secretary",zh:"秘書"}
+{en:"see",zh:"看"}
+{en:"seed",zh:"種子"}
+{en:"seesaw",zh:"蹺蹺板"}
+{en:"seldom",zh:"很少"}
+{en:"sell",zh:"賣"}
+{en:"send",zh:"寄"}
+{en:"senior high school",zh:"高中"}
+{en:"sentence",zh:"句子"}
+{en:"September",zh:"九月"}
+{en:"serious",zh:"嚴重的"}
+{en:"(TV) set",zh:"(電視)機"}
+{en:"seven",zh:"七"}
+{en:"seventeen",zh:"十七"}
+{en:"seventeenth",zh:"第十七(的)"}
+{en:"seventh",zh:"第七(的)"}
+{en:"seventy",zh:"七十"}
+{en:"several",zh:"幾個的"}
+{en:"shake",zh:"搖動"}
+{en:"shall",zh:"將會,好嗎?"}
+{en:"shape",zh:"形狀"}
+{en:"share",zh:"分享"}
+{en:"shark",zh:"鯊魚"}
+{en:"she",zh:"她"}
+{en:"sheep",zh:"綿羊"}
+{en:"ship",zh:"船"}
+{en:"shirt",zh:"襯衫"}
+{en:"shoe(s)",zh:"鞋子"}
+{en:"shop",zh:"商店"}
+{en:"shopkeeper",zh:"店主"}
+{en:"short",zh:"短的"}
+{en:"shorts",zh:"短褲"}
+{en:"should",zh:"應該"}
+{en:"shoulder",zh:"肩膀"}
+{en:"shout",zh:"喊叫"}
+{en:"show",zh:"指示,表演"}
+{en:"shy",zh:"害羞的"}
+{en:"sick",zh:"生病的"}
+{en:"side",zh:"旁邊,邊,面"}
+{en:"sidewalk",zh:"人行道"}
+{en:"sight",zh:"視力"}
+{en:"sign",zh:"標誌"}
+{en:"simple",zh:"簡單的"}
+{en:"since",zh:"自從"}
+{en:"sing",zh:"唱歌"}
+{en:"singer",zh:"歌手"}
+{en:"sir",zh:"先生"}
+{en:"sister",zh:"姊妹"}
+{en:"sit",zh:"坐"}
+{en:"six",zh:"六"}
+{en:"sixteen",zh:"十六"}
+{en:"sixteenth",zh:"第十六(的〉"}
+{en:"sixth",zh:"第六(的〉"}
+{en:"sixty",zh:"六十"}
+{en:"size",zh:"尺寸"}
+{en:"skate",zh:"溜冰"}
+{en:"skirt",zh:"裙子"}
+{en:"sky",zh:"天空"}
+{en:"sleep",zh:"睡覺"}
+{en:"slide",zh:"滑坡,滑動"}
+{en:"slim",zh:"苗條的"}
+{en:"slow",zh:"慢的"}
+{en:"small",zh:"小"}
+{en:"smart",zh:"聰明的"}
+{en:"smell",zh:"聞起來"}
+{en:"smile",zh:"微笑"}
+{en:"smoke",zh:"煙霧,抽菸"}
+{en:"snack",zh:"點心"}
+{en:"snake",zh:"蛇"}
+{en:"snow",zh:"下雪"}
+{en:"snowman",zh:"雪人"}
+{en:"snowy",zh:"下雪的"}
+{en:"so",zh:"如此地"}
+{en:"soccer",zh:"足球"}
+{en:"socks",zh:"襪子"}
+{en:"sofa",zh:"沙發"}
+{en:"soldier",zh:"軍人"}
+{en:"some",zh:"一些"}
+{en:"someone",zh:"某人"}
+{en:"something",zh:"某事"}
+{en:"sometimes",zh:"有時候"}
+{en:"somewhere",zh:"某處"}
+{en:"son",zh:"兒子"}
+{en:"song",zh:"歌曲"}
+{en:"soon",zh:"不久,即將"}
+{en:"sore",zh:"疼痛的"}
+{en:"sorry",zh:"抱歉"}
+{en:"sound",zh:"聲音,聽起來"}
+{en:"soup",zh:"湯"}
+{en:"south",zh:"南方"}
+{en:"space",zh:"空間"}
+{en:"spaghetti",zh:"義大利麵"}
+{en:"speak",zh:"說"}
+{en:"special",zh:"特別的"}
+{en:"spell",zh:"拼字"}
+{en:"spend",zh:"花(錢,時間)"}
+{en:"spider",zh:"蜘蛛"}
+{en:"spoon",zh:"湯匙"}
+{en:"sport",zh:"運動"}
+{en:"spring",zh:"春天"}
+{en:"square",zh:"正方形的"}
+{en:"stairs",zh:"樓梯"}
+{en:"stamp",zh:"郵票"}
+{en:"stand",zh:"站立"}
+{en:"star",zh:"星星"}
+{en:"start",zh:"開始"}
+{en:"station",zh:"車站,站,局"},
+{en:"stay",zh:"停留"}
+{en:"steak",zh:"(牛)排"}
+{en:"still",zh:"仍然"}
+{en:"stomach",zh:"胃"}
+{en:"stop",zh:"停"}
+{en:"store",zh:"商店"}
+{en:"straight",zh:"直的"}
+{en:"story",zh:"故事"}
+{en:"strange",zh:"奇怪的"}
+{en:"stranger",zh:"陌生人"}
+{en:"strawberry",zh:"草莓"}
+{en:"street",zh:"街道"}
+{en:"strong",zh:"強壯的"}
+{en:"student",zh:"學生"}
+{en:"study",zh:"研讀,學習"}
+{en:"stupid",zh:"笨的"}
+{en:"subject",zh:"科目"}
+{en:"successful",zh:"成功的"}
+{en:"sugar",zh:"糖"}
+{en:"summer",zh:"夏天"}
+{en:"sun",zh:"太陽"}
+{en:"Sunday",zh:"星期日"}
+{en:"sunny",zh:"晴朗的"}
+{en:"supermarket",zh:"超級市場"}
+{en:"sure",zh:"確定的"}
+{en:"surf",zh:"衝浪"}
+{en:"surprise",zh:"使…驚訝"}
+{en:"surprised",zh:"感到驚訝的"}
+{en:"sweater",zh:"毛衣"}
+{en:"sweet",zh:"甜的"}
+{en:"swim",zh:"游泳"}
+{en:"swing",zh:"鞦韆,搖擺"}
+{en:"table",zh:"桌子"}
+{en:"tail",zh:"尾巴"}
+{en:"Taiwan",zh:"臺灣"}
+{en:"take",zh:"拿"}
+{en:"talk",zh:"說話"}
+{en:"tall",zh:"高的"}
+{en:"tape",zh:"錄音帶"}
+{en:"taste",zh:"品嚐"}
+{en:"taxi",zh:"計程車"}
+{en:"tea",zh:"茶"}
+{en:"teach",zh:"教導"}
+{en:"teacher",zh:"教師"}
+{en:"team",zh:"團隊"}
+{en:"teenager",zh:"青少年"}
+{en:"telephone",zh:"電話"}
+{en:"television",zh:"電視"}
+{en:"tell",zh:"告訴"}
+{en:"temple",zh:"寺廟"}
+{en:"ten",zh:"十"}
+{en:"tennis",zh:"網球"}
+{en:"tenth",zh:"第十〈的〉"}
+{en:"terrible",zh:"可怕的"}
+{en:"test",zh:"考試,測試"}
+{en:"than",zh:"比…"}
+{en:"thank",zh:"謝謝"}
+{en:"that",zh:"那個"}
+{en:"the",zh:"這/那"}
+{en:"theater",zh:"戲院"}
+{en:"then",zh:"那時"}
+{en:"there",zh:"那裡"}
+{en:"these",zh:"這些"}
+{en:"they",zh:"他們"}
+{en:"thick",zh:"厚的"}
+{en:"thin",zh:"瘦的"}
+{en:"thing",zh:"事情"}
+{en:"think",zh:"想,思考"}
+{en:"third",zh:"第三〈的〉"}
+{en:"thirsty",zh:"口渴的"}
+{en:"thirteen",zh:"十三"}
+{en:"thirteenth",zh:"第十三"}
+{en:"thirty",zh:"三十"}
+{en:"this",zh:"這個"}
+{en:"throat",zh:"喉嚨"}
+{en:"throw",zh:"丟"}
+{en:"those",zh:"那些"}
+{en:"though",zh:"雖然"}
+{en:"thousand",zh:"千"}
+{en:"three",zh:"三"}
+{en:"Thursday",zh:"星期四"}
+{en:"ticket",zh:"票券"}
+{en:"tidy",zh:"整潔的"}
+{en:"tiger",zh:"老虎"}
+{en:"tie",zh:"領帶,捆,繫"}
+{en:"time",zh:"時間"}
+{en:"tired",zh:"疲倦的"}
+{en:"to",zh:"到"}
+{en:"toast",zh:"土司,烘烤"}
+{en:"today",zh:"今天"}
+{en:"toe",zh:"腳趾"}
+{en:"together",zh:"一起"}
+{en:"tomato",zh:"番茄"}
+{en:"tomorrow",zh:"明天"}
+{en:"tonight",zh:"今晚"}
+{en:"too",zh:"也,太..."}
+{en:"tooth",zh:"牙齒"}
+{en:"top",zh:"頂端"}
+{en:"total",zh:"總計"}
+{en:"touch",zh:"碰觸"}
+{en:"towel",zh:"毛巾"}
+{en:"town",zh:"城鎮"}
+{en:"toy",zh:"玩具"}
+{en:"traffic",zh:"交通"}
+{en:"train",zh:"火車"}
+{en:"trash",zh:"垃圾"}
+{en:"treat",zh:"請客,對待"}
+{en:"tree",zh:"樹"}
+{en:"trick",zh:"惡作劇"}
+{en:"trip",zh:"(短程)旅行"}
+{en:"trouble",zh:"麻煩"}
+{en:"truck",zh:"卡車"}
+{en:"true",zh:"真實的"}
+{en:"try",zh:"嘗試"}
+{en:"T-shirt",zh:"T 恤"}
+{en:"tub",zh:"浴缸,洗澡"}
+{en:"Tuesday",zh:"星期二"}
+{en:"turkey",zh:"火雞"}
+{en:"turn",zh:"轉動,轉彎"}
+{en:"turtle",zh:"烏龜"}
+{en:"twelfth",zh:"第十二(的)"}
+{en:"twelve",zh:"十二"}
+{en:"twenty",zh:"二十"}
+{en:"twentieth",zh:"第二十(的)"}
+{en:"twice",zh:"兩次"}
+{en:"two",zh:"二"}
+{en:"type",zh:"打字"}
+{en:"typhoon",zh:"颱風"}
+{en:"umbrella",zh:"雨傘"}
+{en:"uncle",zh:"伯(叔)"}
+{en:"under",zh:"在…之下"}
+{en:"understand",zh:"了解"}
+{en:"unhappy",zh:"不快樂的"}
+{en:"uniform",zh:"制服"}
+{en:"until",zh:"直到"}
+{en:"up",zh:"向上"}
+{en:"USA",zh:"美國"}
+{en:"use",zh:"使用"}
+{en:"useful",zh:"有用的"}
+{en:"usually",zh:"通常"}
+{en:"vacation",zh:"假期"}
+{en:"vegetable",zh:"蔬菜"}
+{en:"very",zh:"非常"}
+{en:"vest",zh:"背心"}
+{en:"video",zh:"錄影帶"}
+{en:"violin",zh:"小提琴"}
+{en:"visit",zh:"參觀"}
+{en:"voice",zh:"聲音"}
+{en:"wait",zh:"等待"}
+{en:"waiter",zh:"男服務生"}
+{en:"waitress",zh:"女服務生"}
+{en:"wake",zh:"醒來"}
+{en:"walk",zh:"走路"}
+{en:"wall",zh:"牆壁"}
+{en:"wallet",zh:"皮夾"}
+{en:"want",zh:"想要"}
+{en:"warm",zh:"溫暖的"}
+{en:"wash",zh:"清洗"}
+{en:"watch",zh:"看"}
+{en:"water",zh:"水"}
+{en:"watermelon",zh:"西瓜"}
+{en:"wave",zh:"波浪"}
+{en:"way",zh:"道路,方法"}
+{en:"we",zh:"我們"}
+{en:"weak",zh:"弱的"}
+{en:"wear",zh:"穿"}
+{en:"weather",zh:"天氣"}
+{en:"Wednesday",zh:"星期三"}
+{en:"week",zh:"星期"}
+{en:"weekend",zh:"週末"}
+{en:"welcome",zh:"受歡迎的"}
+{en:"well",zh:"好地"}
+{en:"west",zh:"西方"}
+{en:"wet",zh:"濕的"}
+{en:"whale",zh:"鯨魚"}
+{en:"what",zh:"什麼"}
+{en:"when",zh:"何時"}
+{en:"where",zh:"何處"}
+{en:"whether",zh:"是否"}
+{en:"which",zh:"哪一個"}
+{en:"white",zh:"白色(的)"}
+{en:"who",zh:"誰"}
+{en:"whose",zh:"誰的"}
+{en:"why",zh:"為什麼"}
+{en:"wife",zh:"妻子"}
+{en:"will",zh:"將會..."}
+{en:"win",赢}
+{en:"wind",zh:"風"}
+{en:"window",zh:"窗戶"}
+{en:"windy",zh:"多風的"}
+{en:"winter",zh:"冬天"}
+{en:"wise",zh:"明智的"}
+{en:"wish",zh:"祝福…"}
+{en:"with",zh:"和"}
+{en:"without",zh:"沒有"}
+{en:"woman",zh:"女人"}
+{en:"wonderful",zh:"極好的"}
+{en:"word",zh:"字"}
+{en:"work",zh:"工作"}
+{en:"workbook",zh:"作業本"}
+{en:"worker",zh:"工人"}
+{en:"world",zh:"世界"}
+{en:"worry",zh:"擔心"}
+{en:"write",zh:"寫"}
+{en:"writer",zh:"作家"}
+{en:"wrong",zh:"錯誤的"}
+{en:"yard",zh:"庭院"}
+{en:"year",zh:"年"}
+{en:"yellow",zh:"黃色(的)"}
+{en:"yes",zh:"是"}
+{en:"yesterday",zh:"昨天"}
+{en:"yet",zh:"尚未"}
+{en:"you",zh:"你(們)"}
+{en:"young",zh:"年輕的"}
+{en:"yummy",zh:"好吃的"}
+{en:"zebra",zh:"斑馬"}
+{en:"zero",zh:"零"}
+{en:"zoo",zh:"動物園"}
 ];
 
 const juniorWords = [
@@ -1223,4 +1223,5 @@ const juniorWords = [
 {en:"difference",zh:"差異"},
 {en:"example",zh:"例子"}
 ];
+
 
