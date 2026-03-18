@@ -11,7 +11,7 @@ const optionsDiv=document.getElementById("options");
 const childSelect=document.getElementById("child-select");
 
 let children=[
-{name:"簡子碩",correct:0,wrong:0},
+{name:"孩子1",correct:0,wrong:0},
 {name:"孩子2",correct:0,wrong:0}
 ];
 
@@ -133,11 +133,20 @@ setTimeout(nextWord,800);
 }
 
 /* 發音 */
-wordText.onclick=function(){
+wordText.addEventListener("click", function(){
+
+if(!currentWord) return;
+
 let speech=new SpeechSynthesisUtterance(currentWord.en);
 speech.lang="en-US";
+speech.rate=0.9;   // 慢一點比較清楚
+speech.pitch=1;
+
+speechSynthesis.cancel(); // 防止卡住
 speechSynthesis.speak(speech);
-};
+
+});
+
 
 /* 主題 */
 document.querySelectorAll(".theme-dot").forEach(dot=>{
@@ -155,6 +164,7 @@ alert("錯題已清空！");
 /* 初始化 */
 loadChildren();
 loadWordSource();
+
 
 
 
