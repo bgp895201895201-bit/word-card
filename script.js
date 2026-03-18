@@ -11,7 +11,7 @@ const optionsDiv=document.getElementById("options");
 const childSelect=document.getElementById("child-select");
 
 let children=[
-{name:"孩子1",correct:0,wrong:0},
+{name:"簡子碩",correct:0,wrong:0},
 {name:"孩子2",correct:0,wrong:0}
 ];
 
@@ -155,6 +155,7 @@ alert("錯題已清空！");
 /* 初始化 */
 loadChildren();
 loadWordSource();
+
 
 
 
