@@ -1,30 +1,5 @@
 /* 單字庫 */
 
-const elementaryWords=[
-{en:"apple",zh:"蘋果"},
-{en:"banana",zh:"香蕉"},
-{en:"cat",zh:"貓"},
-{en:"dog",zh:"狗"},
-{en:"egg",zh:"蛋"},
-{en:"fish",zh:"魚"},
-{en:"book",zh:"書"},
-{en:"water",zh:"水"},
-{en:"sun",zh:"太陽"},
-{en:"moon",zh:"月亮"}
-];
-
-const juniorWords=[
-{en:"important",zh:"重要的"},
-{en:"decide",zh:"決定"},
-{en:"improve",zh:"改善"},
-{en:"practice",zh:"練習"},
-{en:"discover",zh:"發現"},
-{en:"knowledge",zh:"知識"},
-{en:"develop",zh:"發展"},
-{en:"environment",zh:"環境"},
-{en:"culture",zh:"文化"},
-{en:"technology",zh:"科技"}
-];
 
 let customWords=[];
 
@@ -218,3 +193,4 @@ document.body.setAttribute("data-theme",this.dataset.theme);
 loadChildren();
 
 loadWordSource();
+
