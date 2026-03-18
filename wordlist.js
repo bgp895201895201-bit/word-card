@@ -1,21 +1,46 @@
-// 國小單字庫
-const elementaryList = [
-  {en:"apple", zh:"蘋果", example:"I eat an apple every day."},
-  {en:"banana", zh:"香蕉", example:"She likes banana."},
-  {en:"cat", zh:"貓", example:"The cat is cute."},
-  {en:"dog", zh:"狗", example:"My dog is big."},
-  {en:"fish", zh:"魚", example:"I have a goldfish."},
-  {en:"book", zh:"書", example:"This is my book."},
-  {en:"pen", zh:"筆", example:"I write with a pen."}
+const elementaryWords = [
+{en:"apple",zh:"蘋果"},
+{en:"banana",zh:"香蕉"},
+{en:"book",zh:"書"},
+{en:"pen",zh:"筆"},
+{en:"dog",zh:"狗"},
+{en:"cat",zh:"貓"},
+{en:"sun",zh:"太陽"},
+{en:"moon",zh:"月亮"},
+{en:"water",zh:"水"},
+{en:"food",zh:"食物"},
+{en:"school",zh:"學校"},
+{en:"teacher",zh:"老師"},
+{en:"student",zh:"學生"},
+{en:"happy",zh:"開心"},
+{en:"sad",zh:"難過"},
+{en:"big",zh:"大"},
+{en:"small",zh:"小"},
+{en:"hot",zh:"熱"},
+{en:"cold",zh:"冷"},
+{en:"day",zh:"白天"},
+{en:"night",zh:"晚上"}
 ];
 
-// 國中單字庫
-const juniorList = [
-  {en:"important", zh:"重要的", example:"It is important to study."},
-  {en:"different", zh:"不同的", example:"We have different ideas."},
-  {en:"problem", zh:"問題", example:"I have a problem."},
-  {en:"environment", zh:"環境", example:"Protect the environment."},
-  {en:"experience", zh:"經驗", example:"He has much experience."},
-  {en:"happy", zh:"快樂的", example:"I am very happy."},
-  {en:"teacher", zh:"老師", example:"My teacher is kind."}
+const juniorWords = [
+{en:"important",zh:"重要的"},
+{en:"decide",zh:"決定"},
+{en:"improve",zh:"改善"},
+{en:"practice",zh:"練習"},
+{en:"discover",zh:"發現"},
+{en:"knowledge",zh:"知識"},
+{en:"develop",zh:"發展"},
+{en:"environment",zh:"環境"},
+{en:"culture",zh:"文化"},
+{en:"technology",zh:"科技"},
+{en:"experience",zh:"經驗"},
+{en:"opinion",zh:"意見"},
+{en:"relationship",zh:"關係"},
+{en:"responsibility",zh:"責任"},
+{en:"education",zh:"教育"},
+{en:"communication",zh:"溝通"},
+{en:"information",zh:"資訊"},
+{en:"situation",zh:"情況"},
+{en:"difference",zh:"差異"},
+{en:"example",zh:"例子"}
 ];
