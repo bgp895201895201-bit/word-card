@@ -21,9 +21,21 @@
 
 <label>單字來源:</label> <select id="word-source">
 
-<option value="built">內建單字</option>
+<option value="elementary">國小基本單字</option>
+<option value="junior">國中基本單字</option>
 <option value="custom">自訂單字</option>
 </select>
+
+<div id="custom-box" style="display:none">
+
+<p>輸入自訂單字（格式：英文,中文）</p>
+
+<textarea id="customWords" rows="6" style="width:100%"></textarea>
+
+<button onclick="saveCustomWords()">儲存單字</button>
+
+</div>
+
 
 <label>測驗模式:</label> <select id="mode">
 
@@ -68,3 +80,4 @@
 
 </body>
 </html>
+
