@@ -92,3 +92,23 @@ font-size:16px;
 color:#555;
 }
 
+/* 修正深色模式卡片文字 */
+[data-theme="dark"] #card-section{
+background:#2b2b2b;
+color:white;
+}
+
+/* 單字顏色確保可見 */
+[data-theme="dark"] #word-text{
+color:#ffffff;
+}
+
+/* 選項按鈕 */
+[data-theme="dark"] #options button{
+background:#444;
+color:white;
+}
+
+[data-theme="dark"] #card-section{
+box-shadow:0 6px 16px rgba(0,0,0,0.5);
+}
