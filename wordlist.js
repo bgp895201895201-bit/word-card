@@ -22,52 +22,52 @@ const elementaryWords = [
 {en:"airport",zh:"機場"}, 
 {en:"all",zh:"全部的"}, 
 {en:"almost",zh:"幾乎"}, 
-{en:"along",zh:"沿著"}, [cite: 34]
-{en:"already",zh:"已經"}, [cite: 34]
-{en:"also",zh:"也"}, [cite: 34]
-{en:"always",zh:"總是"}, [cite: 34]
-{en:"a.m.",zh:"上午"}, [cite: 34]
-{en:"America",zh:"美國"}, [cite: 34]
-{en:"American",zh:"美國人:美國的"}, [cite: 34]
-{en:"and",zh:"和"}, [cite: 34]
-{en:"angry",zh:"生氣的"}, [cite: 34]
-{en:"animal",zh:"動物"}, [cite: 34]
-{en:"another",zh:"另一個的"}, [cite: 34]
-{en:"answer",zh:"回答"}, [cite: 34]
-{en:"ant",zh:"螞蟻"}, [cite: 34]
-{en:"any",zh:"任何的"}, [cite: 34]
-{en:"anyone",zh:"任何人"}, [cite: 34]
-{en:"anything",zh:"任何事物"}, [cite: 34]
-{en:"apartment",zh:"公寓"}, [cite: 34]
-{en:"appear",zh:"出現"}, [cite: 34]
-{en:"apple",zh:"蘋果"}, [cite: 34]
-{en:"April",zh:"四月"}, [cite: 34]
-{en:"arm",zh:"手臂,武裝"}, [cite: 34]
-{en:"around",zh:"在...四周"}, [cite: 34]
-{en:"arrive",zh:"到達"}, [cite: 34]
-{en:"art",zh:"美術"}, [cite: 34]
-{en:"as",zh:"與...一樣"}, [cite: 34]
-{en:"ask",zh:"問"}, [cite: 34]
-{en:"at",zh:"在"}, [cite: 34]
-{en:"August",zh:"八月"}, [cite: 34]
-{en:"aunt",zh:"伯(叔)母"}, [cite: 34]
-{en:"autumn",zh:"秋天"}, [cite: 34]
-{en:"away",zh:"遠離"}, [cite: 34]
-{en:"baby",zh:"嬰兒"}, [cite: 34]
-{en:"back",zh:"在...後面"}, [cite: 34]
-{en:"bad",zh:"壞的"}, [cite: 34]
-{en:"badminton",zh:"羽毛球"}, [cite: 34]
-{en:"bag",zh:"袋子"}, [cite: 34]
-{en:"bake",zh:"烘烤"}, [cite: 34]
-{en:"bakery",zh:"麵包店"}, [cite: 34]
-{en:"balcony",zh:"陽台"}, [cite: 34]
-{en:"ball",zh:"球"}, [cite: 34]
-{en:"banana",zh:"香蕉"}, [cite: 34]
-{en:"band",zh:"樂團"}, [cite: 34]
-{en:"bank",zh:"銀行"}, [cite: 34]
-{en:"barbecue",zh:"烤肉"}, [cite: 34]
-{en:"baseball",zh:"棒球"}, [cite: 34]
-{en:"basket",zh:"籃子"}, [cite: 34]
+{en:"along",zh:"沿著"}, 
+{en:"already",zh:"已經"}, 
+{en:"also",zh:"也"}, 
+{en:"always",zh:"總是"}, 
+{en:"a.m.",zh:"上午"}, 
+{en:"America",zh:"美國"}, 
+{en:"American",zh:"美國人:美國的"}, 
+{en:"and",zh:"和"}, 
+{en:"angry",zh:"生氣的"}, 
+{en:"animal",zh:"動物"}, 
+{en:"another",zh:"另一個的"}, 
+{en:"answer",zh:"回答"}, 
+{en:"ant",zh:"螞蟻"},
+{en:"any",zh:"任何的"}, 
+{en:"anyone",zh:"任何人"}, 
+{en:"anything",zh:"任何事物"}, 
+{en:"apartment",zh:"公寓"}, 
+{en:"appear",zh:"出現"},
+{en:"apple",zh:"蘋果"}, 
+{en:"April",zh:"四月"},
+{en:"arm",zh:"手臂,武裝"}, 
+{en:"around",zh:"在...四周"},
+{en:"arrive",zh:"到達"},
+{en:"art",zh:"美術"}, 
+{en:"as",zh:"與...一樣"}, 
+{en:"ask",zh:"問"}, 
+{en:"at",zh:"在"}, 
+{en:"August",zh:"八月"}, 
+{en:"aunt",zh:"伯(叔)母"}, 
+{en:"autumn",zh:"秋天"},
+{en:"away",zh:"遠離"},
+{en:"baby",zh:"嬰兒"},
+{en:"back",zh:"在...後面"},
+{en:"bad",zh:"壞的"}, 
+{en:"badminton",zh:"羽毛球"},
+{en:"bag",zh:"袋子"},
+{en:"bake",zh:"烘烤"}, 
+{en:"bakery",zh:"麵包店"}, 
+{en:"balcony",zh:"陽台"},
+{en:"ball",zh:"球"},
+{en:"banana",zh:"香蕉"}, 
+{en:"band",zh:"樂團"},
+{en:"bank",zh:"銀行"},
+{en:"barbecue",zh:"烤肉"}, 
+{en:"baseball",zh:"棒球"}, 
+{en:"basket",zh:"籃子"},
 {en:"basketball",zh:"籃球"}, 
 {en:"bat",zh:"蝙蝠"}
 {en:"bath",zh:"洗澡"}
