@@ -1,3 +1,5 @@
+let wrongWords = [];
+
 /* 單字庫 */
 
 
@@ -63,7 +65,47 @@ if(source==="junior") currentList=juniorWords;
 
 if(source==="custom") currentList=customWords;
 
-nextWord();
+function nextWord(){
+
+if(currentList.length===0) return;
+
+let useWrong = Math.random()<0.4 && wrongWords.length>0;
+
+let pool = useWrong ? wrongWords : currentList;
+
+const word=pool[Math.floor(Math.random()*pool.length)];
+
+currentWord=word;
+
+mode=document.getElementById("mode").value;
+
+wordText.textContent=mode==="en-zh"?word.en:word.zh;
+
+optionsDiv.innerHTML="";
+
+let options=[word];
+
+while(options.length<4 && currentList.length>3){
+
+let w=currentList[Math.floor(Math.random()*currentList.length)];
+
+if(!options.includes(w)) options.push(w);
+
+}
+
+options.sort(()=>Math.random()-0.5);
+
+options.forEach(w=>{
+
+let btn=document.createElement("button");
+
+btn.textContent=mode==="en-zh"?w.zh:w.en;
+
+btn.onclick=(e)=>checkAnswer(w,e);
+
+optionsDiv.appendChild(btn);
+
+});
 
 }
 
@@ -141,7 +183,7 @@ optionsDiv.appendChild(btn);
 }
 
 /* 判斷答案 */
-
+  
 function checkAnswer(w,e){
 
 let correct=w===currentWord;
@@ -149,20 +191,31 @@ let correct=w===currentWord;
 const buttons=optionsDiv.querySelectorAll("button");
 
 buttons.forEach(btn=>{
-
 if(btn.textContent === (mode==="en-zh"?currentWord.zh:currentWord.en)){
 btn.classList.add("correct");
 }
-
 });
 
 if(!correct){
+
 e.target.classList.add("wrong");
+
+/* 加入錯題（避免重複） */
+if(!wrongWords.includes(currentWord)){
+wrongWords.push(currentWord);
+}
+
+}else{
+
+/* 答對就從錯題移除 */
+wrongWords = wrongWords.filter(item=>item!==currentWord);
+
 }
 
 setTimeout(nextWord,800);
 
 }
+
 
 /* 發音 */
 
@@ -193,4 +246,10 @@ document.body.setAttribute("data-theme",this.dataset.theme);
 loadChildren();
 
 loadWordSource();
+
+function clearWrong(){
+wrongWords = [];
+alert("錯題已清空！");
+}  
+
 
