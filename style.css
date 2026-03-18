@@ -96,6 +96,7 @@ color:#555;
 [data-theme="dark"] #card-section{
 background:#2b2b2b;
 color:white;
+box-shadow:0 6px 16px rgba(0,0,0,0.5);
 }
 
 /* 單字顏色確保可見 */
@@ -109,6 +110,4 @@ background:#444;
 color:white;
 }
 
-[data-theme="dark"] #card-section{
-box-shadow:0 6px 16px rgba(0,0,0,0.5);
-}
+
