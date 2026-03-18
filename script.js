@@ -1,16 +1,41 @@
-const wordList = [
+/* 單字庫 */
+
+const elementaryWords=[
 {en:"apple",zh:"蘋果"},
-{en:"dog",zh:"狗"},
+{en:"banana",zh:"香蕉"},
 {en:"cat",zh:"貓"},
+{en:"dog",zh:"狗"},
+{en:"egg",zh:"蛋"},
+{en:"fish",zh:"魚"},
 {en:"book",zh:"書"},
-{en:"water",zh:"水"}
+{en:"water",zh:"水"},
+{en:"sun",zh:"太陽"},
+{en:"moon",zh:"月亮"}
 ];
 
+const juniorWords=[
+{en:"important",zh:"重要的"},
+{en:"decide",zh:"決定"},
+{en:"improve",zh:"改善"},
+{en:"practice",zh:"練習"},
+{en:"discover",zh:"發現"},
+{en:"knowledge",zh:"知識"},
+{en:"develop",zh:"發展"},
+{en:"environment",zh:"環境"},
+{en:"culture",zh:"文化"},
+{en:"technology",zh:"科技"}
+];
+
+let customWords=[];
+
+let currentList=[];
 let currentWord;
 let mode="en-zh";
 
 const wordText=document.getElementById("word-text");
 const optionsDiv=document.getElementById("options");
+
+/* 孩子系統 */
 
 const childSelect=document.getElementById("child-select");
 
@@ -48,23 +73,77 @@ loadChildren();
 
 }
 
+/* 單字來源 */
+
+function loadWordSource(){
+
+let source=document.getElementById("word-source").value;
+
+document.getElementById("custom-box").style.display=
+source==="custom"?"block":"none";
+
+if(source==="elementary") currentList=elementaryWords;
+
+if(source==="junior") currentList=juniorWords;
+
+if(source==="custom") currentList=customWords;
+
+nextWord();
+
+}
+
+document.getElementById("word-source").onchange=loadWordSource;
+
+/* 自訂單字 */
+
+function saveCustomWords(){
+
+let text=document.getElementById("customWords").value;
+
+let lines=text.split("\n");
+
+customWords=[];
+
+lines.forEach(line=>{
+
+let parts=line.split(",");
+
+if(parts.length===2){
+
+customWords.push({
+en:parts.trim(),
+zh:parts.trim()
+});
+
+}
+
+});
+
+alert("自訂單字已儲存");
+
+}
+
+/* 題目 */
+
 function nextWord(){
 
-const word=wordList[Math.floor(Math.random()*wordList.length)];
+if(currentList.length===0) return;
+
+const word=currentList[Math.floor(Math.random()*currentList.length)];
 
 currentWord=word;
 
 mode=document.getElementById("mode").value;
 
-wordText.textContent= mode==="en-zh"?word.en:word.zh;
+wordText.textContent=mode==="en-zh"?word.en:word.zh;
 
 optionsDiv.innerHTML="";
 
 let options=[word];
 
-while(options.length<4){
+while(options.length<4 && currentList.length>3){
 
-let w=wordList[Math.floor(Math.random()*wordList.length)];
+let w=currentList[Math.floor(Math.random()*currentList.length)];
 
 if(!options.includes(w)) options.push(w);
 
@@ -78,7 +157,7 @@ let btn=document.createElement("button");
 
 btn.textContent=mode==="en-zh"?w.zh:w.en;
 
-btn.onclick=()=>checkAnswer(w);
+btn.onclick=(e)=>checkAnswer(w,e);
 
 optionsDiv.appendChild(btn);
 
@@ -86,9 +165,11 @@ optionsDiv.appendChild(btn);
 
 }
 
-function checkAnswer(w){
+/* 判斷答案 */
 
-let correct = w===currentWord;
+function checkAnswer(w,e){
+
+let correct=w===currentWord;
 
 const buttons=optionsDiv.querySelectorAll("button");
 
@@ -101,26 +182,26 @@ btn.classList.add("correct");
 });
 
 if(!correct){
-
-event.target.classList.add("wrong");
-
+e.target.classList.add("wrong");
 }
 
 setTimeout(nextWord,800);
 
 }
 
+/* 發音 */
+
 wordText.onclick=function(){
 
-let text=currentWord.en;
-
-let speech=new SpeechSynthesisUtterance(text);
+let speech=new SpeechSynthesisUtterance(currentWord.en);
 
 speech.lang="en-US";
 
 speechSynthesis.speak(speech);
 
 };
+
+/* 主題 */
 
 document.querySelectorAll(".theme-dot").forEach(dot=>{
 
@@ -132,6 +213,8 @@ document.body.setAttribute("data-theme",this.dataset.theme);
 
 });
 
+/* 初始化 */
+
 loadChildren();
 
-nextWord();
+loadWordSource();
