@@ -1,4 +1,4 @@
-const elementaryWords = [
+let elementaryWords1 = [
 {en:"a (an)",zh:"一(個)"}, 
 {en:"a few",zh:"一些"},
 {en:"a little",zh:"一些"}, 
@@ -398,6 +398,9 @@ const elementaryWords = [
 {en:"fry",zh:"油炸"},
 {en:"full",zh:"滿的"},
 {en:"fun",zh:"樂趣"},
+ ];
+
+let elementaryWords2 = [
 {en:"funny",zh:"好笑的"},
 {en:"future",zh:"未來"},
 {en:"game",zh:"比賽,遊戲"},
@@ -795,6 +798,9 @@ const elementaryWords = [
 {en:"price",zh:"價格"},
 {en:"princess",zh:"公主"},
 {en:"prize",zh:"獎品,獎金"},
+  ];
+
+let elementaryWords3 = [
 {en:"problem",zh:"問題"},
 {en:"program",zh:"節目"},
 {en:"proud",zh:"驕傲的"},
@@ -1199,6 +1205,12 @@ const elementaryWords = [
 {en:"zebra",zh:"斑馬"},
 {en:"zero",zh:"零"},
 {en:"zoo",zh:"動物園"},
+];
+
+let elementaryWords = [
+  ...elementaryWords1,
+  ...elementaryWords2,
+  ...elementaryWords3
 ];
 
 const juniorWords = [
