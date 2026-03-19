@@ -69,10 +69,6 @@ const elementaryWords = [
 {en:"baseball",zh:"棒球"}, 
 {en:"basket",zh:"籃子"},
 {en:"basketball",zh:"籃球"}, 
-沒問題！我會為你保留結尾的逗號，並將所有單字整理成你需要的格式：`{en:"word",zh:"中文"},`。
-
-這裡從編號 71 的 **bat** 開始為你列出剩餘的所有單字：
-
 {en:"bat",zh:"蝙蝠"},
 {en:"bath",zh:"洗澡"},
 {en:"bathroom",zh:"浴室"},
