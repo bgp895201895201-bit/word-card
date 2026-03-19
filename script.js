@@ -165,7 +165,9 @@ alert("錯題已清空！");
 loadChildren();
 loadWordSource();
 
-
+const elementary_1 = [...]; // 1-400
+const elementary_2 = [...]; // 401-800
+const elementary_3 = [...]; // 801-1200
 
 
 
