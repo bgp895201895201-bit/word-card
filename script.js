@@ -1,177 +1,198 @@
+// ===== 狀態 =====
 let wrongWords = [];
-
-let customWords=[];
-let currentList=[];
+let customWords = [];
+let currentList = [];
 let currentWord;
-let mode="en-zh";
+let mode = "en-zh";
 
-const wordText=document.getElementById("word-text");
-const optionsDiv=document.getElementById("options");
+// ⭐ 新增：避免篩選卡住
+let filteredList = [];
 
-const childSelect=document.getElementById("child-select");
+// DOM
+const wordText = document.getElementById("word-text");
+const optionsDiv = document.getElementById("options");
+const childSelect = document.getElementById("child-select");
 
-let children=[
-{name:"孩子1",correct:0,wrong:0},
-{name:"孩子2",correct:0,wrong:0}
+// ===== 孩子系統 =====
+let children = [
+  { name: "孩子1", correct: 0, wrong: 0 },
+  { name: "孩子2", correct: 0, wrong: 0 }
 ];
 
 function loadChildren(){
-childSelect.innerHTML="";
-children.forEach((c,i)=>{
-let opt=document.createElement("option");
-opt.value=i;
-opt.textContent=c.name;
-childSelect.appendChild(opt);
-});
+  childSelect.innerHTML="";
+  children.forEach((c,i)=>{
+    let opt=document.createElement("option");
+    opt.value=i;
+    opt.textContent=c.name;
+    childSelect.appendChild(opt);
+  });
 }
 
 function addChild(){
-let name=prompt("孩子名字");
-if(!name)return;
+  let name=prompt("孩子名字");
+  if(!name)return;
 
-children.push({name:name,correct:0,wrong:0});
-loadChildren();
+  children.push({name:name,correct:0,wrong:0});
+  loadChildren();
 }
 
-/* 單字來源 */
+// ===== 單字來源 =====
 function loadWordSource(){
 
-let source=document.getElementById("word-source").value;
+  let source=document.getElementById("word-source").value;
 
-document.getElementById("custom-box").style.display=
-source==="custom"?"block":"none";
+  document.getElementById("custom-box").style.display =
+  source==="custom" ? "block" : "none";
 
-if(source==="elementary") currentList=elementaryWords;
-if(source==="junior") currentList=juniorWords;
-if(source==="custom") currentList=customWords;
+  if(source==="elementary") currentList = elementaryWords;
+  if(source==="junior") currentList = juniorWords;
+  if(source==="custom") currentList = customWords;
 
-nextWord();
+  // ⭐ 關鍵：清空篩選
+  filteredList = [];
+
+  nextWord();
 }
 
-document.getElementById("word-source").onchange=loadWordSource;
+document.getElementById("word-source").onchange = loadWordSource;
 
-/* 自訂單字 */
+
+// ===== 自訂單字（已修正BUG🔥）=====
 function saveCustomWords(){
 
-let text=document.getElementById("customWords").value;
-let lines=text.split("\n");
+  let text = document.getElementById("customWords").value;
+  let lines = text.split("\n");
 
-customWords=[];
+  customWords = [];
 
-lines.forEach(line=>{
-let parts=line.split(",");
-if(parts.length===2){
-customWords.push({
-en:parts.trim(),
-zh:parts.trim()
-});
+  lines.forEach(line=>{
+    let parts = line.split(",");
+
+    if(parts.length===2){
+      customWords.push({
+        en: parts[0].trim(),
+        zh: parts[1].trim(),
+        category: "custom"
+      });
+    }
+  });
+
+  alert("自訂單字已儲存");
+
+  // ⭐ 強制切到 custom
+  document.getElementById("word-source").value = "custom";
+
+  loadWordSource();
 }
-});
 
-alert("自訂單字已儲存");
-}
 
-/* 題目（含錯題機制） */
+// ===== 題目（含錯題機制）=====
 function nextWord(){
 
-if(currentList.length===0) return;
+  let list = filteredList.length ? filteredList : currentList;
 
-let useWrong = Math.random()<0.4 && wrongWords.length>0;
-let pool = useWrong ? wrongWords : currentList;
+  if(list.length === 0){
+    wordText.textContent = "沒有單字";
+    optionsDiv.innerHTML = "";
+    return;
+  }
 
-const word=pool[Math.floor(Math.random()*pool.length)];
-currentWord=word;
+  let useWrong = Math.random() < 0.4 && wrongWords.length > 0;
+  let pool = useWrong ? wrongWords : list;
 
-mode=document.getElementById("mode").value;
+  currentWord = pool[Math.floor(Math.random()*pool.length)];
 
-wordText.textContent=mode==="en-zh"?word.en:word.zh;
+  mode = document.getElementById("mode").value;
 
-optionsDiv.innerHTML="";
+  wordText.textContent = mode==="en-zh" ? currentWord.en : currentWord.zh;
 
-let options=[word];
+  optionsDiv.innerHTML = "";
 
-while(options.length<4 && currentList.length>3){
-let w=currentList[Math.floor(Math.random()*currentList.length)];
-if(!options.includes(w)) options.push(w);
+  let options = [currentWord];
+
+  // ⭐ 修正：選項來源用 list
+  while(options.length < 4 && list.length > 3){
+    let w = list[Math.floor(Math.random()*list.length)];
+    if(!options.includes(w)) options.push(w);
+  }
+
+  options.sort(()=>Math.random()-0.5);
+
+  options.forEach(w=>{
+    let btn = document.createElement("button");
+    btn.textContent = mode==="en-zh" ? w.zh : w.en;
+    btn.onclick = (e)=>checkAnswer(w,e);
+    optionsDiv.appendChild(btn);
+  });
 }
 
-options.sort(()=>Math.random()-0.5);
 
-options.forEach(w=>{
-let btn=document.createElement("button");
-btn.textContent=mode==="en-zh"?w.zh:w.en;
-btn.onclick=(e)=>checkAnswer(w,e);
-optionsDiv.appendChild(btn);
-});
-}
-
-/* 判斷答案 */
+// ===== 判斷答案 =====
 function checkAnswer(w,e){
 
-let correct=w===currentWord;
+  let correct = w === currentWord;
 
-const buttons=optionsDiv.querySelectorAll("button");
+  const buttons = optionsDiv.querySelectorAll("button");
 
-buttons.forEach(btn=>{
-if(btn.textContent === (mode==="en-zh"?currentWord.zh:currentWord.en)){
-btn.classList.add("correct");
+  buttons.forEach(btn=>{
+    if(btn.textContent === (mode==="en-zh"?currentWord.zh:currentWord.en)){
+      btn.classList.add("correct");
+    }
+  });
+
+  if(!correct){
+    e.target.classList.add("wrong");
+
+    if(!wrongWords.some(item=>item.en===currentWord.en)){
+      wrongWords.push(currentWord);
+    }
+
+  }else{
+    wrongWords = wrongWords.filter(item=>item.en!==currentWord.en);
+  }
+
+  setTimeout(nextWord,800);
 }
-});
 
-if(!correct){
-e.target.classList.add("wrong");
 
-if(!wrongWords.includes(currentWord)){
-wrongWords.push(currentWord);
-}
-
-}else{
-wrongWords = wrongWords.filter(item=>item!==currentWord);
-}
-
-setTimeout(nextWord,800);
-}
-
-/* 發音 */
+// ===== 發音 =====
 wordText.addEventListener("click", function(){
 
-if(!currentWord) return;
+  if(!currentWord) return;
 
-let speech=new SpeechSynthesisUtterance(currentWord.en);
-speech.lang="en-US";
-speech.rate=0.9;   // 慢一點比較清楚
-speech.pitch=1;
+  let speech = new SpeechSynthesisUtterance(currentWord.en);
+  speech.lang = "en-US";
+  speech.rate = 0.9;
+  speech.pitch = 1;
 
-speechSynthesis.cancel(); // 防止卡住
-speechSynthesis.speak(speech);
+  speechSynthesis.cancel();
+  speechSynthesis.speak(speech);
 
 });
 
 
-/* 主題 */
+// ===== 主題 =====
 document.querySelectorAll(".theme-dot").forEach(dot=>{
-dot.onclick=function(){
-document.body.setAttribute("data-theme",this.dataset.theme);
-};
+  dot.onclick=function(){
+    document.body.setAttribute("data-theme",this.dataset.theme);
+  };
 });
 
-/* 清除錯題 */
+
+// ===== 清除錯題 =====
 function clearWrong(){
-wrongWords = [];
-alert("錯題已清空！");
+  wrongWords = [];
+  alert("錯題已清空！");
 }
 
-/* 初始化 */
+
+// ===== 初始化 =====
 loadChildren();
 loadWordSource();
 
-if(source==="e1") currentList = elementary_1;
-if(source==="e2") currentList = elementary_2;
-if(source==="e3") currentList = elementary_3;
 
-
-/* ===== 自動切三批 ===== */
+// ===== 如果你有1200單字（保留）=====
 let elementary_1 = fullWordList.slice(0, 400);
 let elementary_2 = fullWordList.slice(400, 800);
 let elementary_3 = fullWordList.slice(800, 1200);
-
