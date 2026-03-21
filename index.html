@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
+
+<!-- ⭐ 手機RWD關鍵 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Word Practice 1.0</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body data-theme="light">
@@ -13,54 +18,64 @@
 
 <h1>Word Practice 1.0</h1>
 
-<label>孩子:</label> <select id="child-select"></select>
-
+<!-- 孩子 -->
+<label>孩子:</label>
+<select id="child-select"></select>
 <button onclick="addChild()">＋新增孩子</button>
 
 <hr>
 
-<label>單字來源:</label> <select id="word-source">
-
+<!-- 單字來源 -->
+<label>單字來源:</label>
+<select id="word-source">
 <option value="elementary">國小基本單字</option>
 <option value="junior">國中基本單字</option>
 <option value="custom">自訂單字</option>
 </select>
 
+<!-- 分級（你原本放錯位置，我幫你修好） -->
+<label>單字分級:</label>
+<select id="level">
+<option value="1">國小 1-400</option>
+<option value="2">國小 401-800</option>
+<option value="3">國小 801-1200</option>
+</select>
+
+<!-- 自訂單字 -->
 <div id="custom-box" style="display:none">
-
 <p>輸入自訂單字（格式：英文,中文）</p>
-
-<textarea id="customWords" rows="6" style="width:100%"></textarea>
-
+<textarea id="customWords" rows="6"></textarea>
 <button onclick="saveCustomWords()">儲存單字</button>
-
 </div>
 
+<hr>
 
-<label>測驗模式:</label> <select id="mode">
-
+<!-- 測驗模式 -->
+<label>測驗模式:</label>
+<select id="mode">
 <option value="en-zh">英文 → 中文</option>
 <option value="zh-en">中文 → 英文</option>
 </select>
 
+<!-- 主題 -->
 <div id="theme-picker">
-
 主題:
-
-<span class="theme-dot" data-theme="light"></span> <span class="theme-dot" data-theme="dark"></span> <span class="theme-dot" data-theme="pink"></span> <span class="theme-dot" data-theme="blue"></span>
-
+<span class="theme-dot" data-theme="light"></span>
+<span class="theme-dot" data-theme="dark"></span>
+<span class="theme-dot" data-theme="pink"></span>
+<span class="theme-dot" data-theme="blue"></span>
 </div>
 
+<!-- 單字卡 -->
 <div id="card-section">
-
 <div id="word-text"></div>
-
 <div id="options"></div>
 
 <button onclick="nextWord()">下一題</button>
-
+<button onclick="clearWrong()">清除錯題</button>
 </div>
 
+<!-- 例句 -->
 <label>
 <input type="checkbox" id="showExample">
 例句與文法
@@ -70,23 +85,15 @@
 
 <hr>
 
+<!-- 匯入匯出 -->
 <button onclick="importWords()">匯出資料</button>
-
 <input type="file" id="fileInput">
 
 </div>
 
+<!-- JS -->
 <script src="wordlist.js"></script>
-
 <script src="script.js"></script>
 
 </body>
 </html>
-
-<button onclick="clearWrong()">清除錯題</button>
-
-<select id="level">
-<option value="1">國小 1-400</option>
-<option value="2">國小 401-800</option>
-<option value="3">國小 801-1200</option>
-</select>
