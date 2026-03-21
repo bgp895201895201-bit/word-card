@@ -196,3 +196,39 @@ loadWordSource();
 let elementary_1 = fullWordList.slice(0, 400);
 let elementary_2 = fullWordList.slice(400, 800);
 let elementary_3 = fullWordList.slice(800, 1200);
+
+// ===== 例句資料（先放幾個示範）=====
+let exampleData = {
+  apple: "I eat an apple every day.（我每天吃一顆蘋果）",
+  dog: "The dog is very cute.（這隻狗很可愛）",
+  run: "I run in the park.（我在公園跑步）",
+  book: "This book is interesting.（這本書很有趣）"
+};
+
+
+// ===== 顯示例句 =====
+function showExample(){
+
+let box = document.getElementById("example-box");
+let checkbox = document.getElementById("showExample");
+
+if(!checkbox.checked){
+  box.innerHTML = "";
+  return;
+}
+
+if(!currentWord){
+  box.innerHTML = "";
+  return;
+}
+
+// ⭐ 抓英文key
+let key = currentWord.en.toLowerCase();
+
+if(exampleData[key]){
+  box.innerHTML = exampleData[key];
+}else{
+  box.innerHTML = "（目前沒有例句）";
+}
+
+}
