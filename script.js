@@ -53,6 +53,7 @@ function loadWordSource(){
   filteredList = [];
 
   nextWord();
+  showExample();
 }
 
 document.getElementById("word-source").onchange = loadWordSource;
@@ -226,9 +227,9 @@ if(!currentWord){
 let key = currentWord.en.toLowerCase();
 
 if(exampleData[key]){
-  box.innerHTML = exampleData[key];
-}else{
-  box.innerHTML = "（目前沒有例句）";
-}
+    box.innerHTML = exampleData[key]; 
+  }else{
+    box.innerHTML = "（目前沒有例句）";
+  }
 
 }
