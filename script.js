@@ -209,7 +209,7 @@ let exampleData = {
 
 // ===== 顯示例句 =====
 function showExample(){
-
+document.getElementById("showExample").addEventListener("change", showExample);
 let box = document.getElementById("example-box");
 let checkbox = document.getElementById("showExample");
 
