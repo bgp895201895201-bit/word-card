@@ -87,10 +87,13 @@ background:#e8f1ff;
 }
 
 #example-box{
-margin-top:15px;
-font-size:16px;
-color:#555;
+  margin-top:10px;
+  padding:10px;
+  background:#f0f0f0;
+  border-radius:10px;
+  font-size:14px;
 }
+
 
 /* 修正深色模式卡片文字 */
 [data-theme="dark"] #card-section{
@@ -109,5 +112,6 @@ color:#ffffff;
 background:#444;
 color:white;
 }
+
 
 
