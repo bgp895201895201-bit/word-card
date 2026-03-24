@@ -500,5 +500,3 @@ function init() {
 }
 
 init();
-
-document.getElementById("fileInput").addEventListener("change", importData);
