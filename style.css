@@ -495,6 +495,41 @@ button:active{
     width: 100%;
   }
 
+  /* ===== 深色主題完整修正 ===== */
+
+body[data-theme="dark"]{
+  background:#121212;
+  color:#ffffff;
+}
+
+/* 所有文字 */
+body[data-theme="dark"] *{
+  color:#ffffff;
+}
+
+/* 但按鈕例外（避免變白） */
+body[data-theme="dark"] button{
+  color:white;
+}
+
+/* 區塊 */
+body[data-theme="dark"] .container{
+  background:#1e1e1e;
+}
+
+/* 輸入區 */
+body[data-theme="dark"] input,
+body[data-theme="dark"] textarea,
+body[data-theme="dark"] select{
+  background:#2a2a2a;
+  color:#ffffff;
+  border:1px solid #555;
+}
+
+/* 例句 */
+body[data-theme="dark"] #example-box{
+  background:#2a2a2a;
+}
   #word-text{
     margin-top: 22px;
   }
