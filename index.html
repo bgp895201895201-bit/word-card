@@ -6,167 +6,73 @@
 <title>Word Practice Kids</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body data-theme="light">
-<div class="page-shell">
-  <div class="container">
-    <header class="hero">
-      <p class="eyebrow">Kids English</p>
-      <h1>單字學習小樂園</h1>
-      <p class="hero-copy">一邊玩單字卡，一邊看例句和文法小提示，讓小朋友更容易記住怎麼用。</p>
-    </header>
 
-    <section class="control-panel">
-      <div class="control-grid">
-        <label class="field">
-          <span class="field-label">孩子</span>
-          <div class="inline-field">
-            <select id="child-select"></select>
-            <button type="button" id="add-child-btn" class="secondary-button">新增孩子</button>
-          </div>
-        </label>
+<div class="container">
 
-        <label class="field">
-          <span class="field-label">單字來源</span>
-          <select id="word-source">
-            <option value="elementary">國小基本單字</option>
-            <option value="junior">國中基本單字</option>
-            <option value="custom">自訂單字</option>
-          </select>
-        </label>
+<h1>單字學習小樂園</h1>
 
-        <label class="field">
-          <span class="field-label">單字分級</span>
-          <select id="level">
-            <option value="1">國小 1-400</option>
-            <option value="2">國小 401-800</option>
-            <option value="3">國小 801-1200</option>
-          </select>
-        </label>
+<label>孩子</label>
+<select id="child-select"></select>
+<button id="add-child-btn">新增孩子</button>
 
-        <label class="field">
-          <span class="field-label">測驗模式</span>
-          <select id="mode">
-            <option value="en-zh">英文 → 中文</option>
-            <option value="zh-en">中文 → 英文</option>
-          </select>
-        </label>
+<hr>
 
-        <div class="field">
-          <span class="field-label">顯示內容</span>
-          <div class="toggle-group">
-            <label class="toggle">
-              <input type="checkbox" id="showExample" checked>
-              <span>例句</span>
-            </label>
-            <label class="toggle">
-              <input type="checkbox" id="showGrammar" checked>
-              <span>文法</span>
-            </label>
-          </div>
-        </div>
+<label>單字來源</label>
+<select id="word-source">
+<option value="elementary">國小</option>
+<option value="junior">國中</option>
+<option value="custom">自訂單字</option>
+</select>
 
-        <div class="field">
-          <span class="field-label">主題</span>
-          <div id="theme-picker" class="theme-picker" aria-label="主題選擇">
-            <button type="button" class="theme-dot active" data-theme="light" aria-label="淺色主題"></button>
-            <button type="button" class="theme-dot" data-theme="dark" aria-label="深色主題"></button>
-            <button type="button" class="theme-dot" data-theme="pink" aria-label="粉紅主題"></button>
-            <button type="button" class="theme-dot" data-theme="blue" aria-label="藍色主題"></button>
-          </div>
-        </div>
-      </div>
+<!-- ⭐ 自訂單字 -->
+<div id="custom-box" class="hidden">
 
-     <div id="custom-box" class="custom-box hidden">
+<p>一行一筆：英文,中文</p>
 
-  <p class="custom-title">自訂單字</p>
-  <p class="custom-copy">
-    一行一筆，格式是「英文,中文」。匯入後也會自動產生例句和文法提示。
-  </p>
+<textarea id="customWords" rows="6"></textarea>
 
-  <textarea id="customWords" rows="6" placeholder="apple,蘋果&#10;read,閱讀"></textarea>
+<button id="save-custom-btn">儲存單字</button>
 
-  <div class="custom-actions">
+<button onclick="exportData()">匯出資料</button>
 
-    <!-- 儲存 -->
-    <button type="button" id="save-custom-btn" class="secondary-button">
-      儲存單字
-    </button>
-
-    <!-- 匯出 -->
-    <button type="button" onclick="exportData()">
-      匯出資料
-    </button>
-
-    <!-- 匯入按鈕（點擊打開檔案） -->
-    <button type="button" onclick="document.getElementById('fileInput').click()">
-      匯入資料
-    </button>
-
-    <!-- 真正的檔案選擇（隱藏） -->
-    <input type="file" id="fileInput" accept=".json">
-
-  </div>
+<button onclick="document.getElementById('fileInput').click()">匯入資料</button>
+<input type="file" id="fileInput" accept=".json">
 
 </div>
 
-    <section class="status-bar" aria-label="學習統計">
-      <div class="stat-pill">
-        <strong id="pool-count">0</strong>
-        <span>目前題庫</span>
-      </div>
-      <div class="stat-pill">
-        <strong id="wrong-count">0</strong>
-        <span>錯題本</span>
-      </div>
-      <div class="stat-pill">
-        <strong id="child-score">0 / 0</strong>
-        <span id="child-score-label">孩子紀錄</span>
-      </div>
-    </section>
+<hr>
 
-    <section id="card-section" class="card-section">
-      <div class="card-top">
-        <span id="source-label" class="badge">國小 1-400</span>
-        <span class="badge badge-soft">點單字可以發音</span>
-      </div>
+<label>模式</label>
+<select id="mode">
+<option value="en-zh">英文→中文</option>
+<option value="zh-en">中文→英文</option>
+</select>
 
-      <div id="word-text" aria-live="polite">準備開始</div>
-      <p id="word-hint" class="word-hint">請選出正確的中文</p>
-      <div id="options" class="options"></div>
+<hr>
 
-      <div class="action-row">
-        <button type="button" id="next-btn" class="primary-button">下一題</button>
-        <button type="button" id="clear-wrong-btn" class="secondary-button">清除錯題</button>
-      </div>
-    </section>
+<div id="word-text">準備開始</div>
+<div id="options"></div>
 
-    <section class="support-grid">
-      <article id="example-box" class="info-card">
-        <div class="info-head">
-          <p class="info-kicker">Example</p>
-          <h2>例句</h2>
-        </div>
-        <div id="example-content" class="info-content">
-          <p class="placeholder-text">打開例句後，這裡會顯示單字在句子裡的用法。</p>
-        </div>
-      </article>
+<button id="next-btn">下一題</button>
+<button id="clear-wrong-btn">清除錯題</button>
 
-      <article id="grammar-box" class="info-card">
-        <div class="info-head">
-          <p class="info-kicker">Grammar</p>
-          <h2>文法小提示</h2>
-        </div>
-        <div id="grammar-content" class="info-content">
-          <p class="placeholder-text">打開文法後，這裡會顯示孩子看得懂的小提醒。</p>
-        </div>
-      </article>
-    </section>
-  </div>
+<hr>
 
-  <div class="ad-box">廣告位置保留區</div>
+<label>
+<input type="checkbox" id="showExample" checked>
+顯示例句
+</label>
+
+<div id="example-box"></div>
+
 </div>
+
+<div class="ad-box">廣告位置</div>
 
 <script src="wordlist.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
