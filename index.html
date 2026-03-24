@@ -76,17 +76,38 @@
         </div>
       </div>
 
-      <div id="custom-box" class="custom-box hidden">
-        <p class="custom-title">自訂單字</p>
-        <p class="custom-copy">一行一筆，格式是「英文,中文」。匯入後也會自動產生例句和文法提示。</p>
-        <textarea id="customWords" rows="6" placeholder="apple,蘋果&#10;read,閱讀"></textarea>
-        <div class="custom-actions">
-          <button type="button" id="save-custom-btn" class="secondary-button">儲存單字</button>
-          <button type="button" id="import-btn" class="secondary-button">匯入檔案</button>
-          <input type="file" id="fileInput" accept=".txt,.csv" hidden>
-        </div>
-      </div>
-    </section>
+     <div id="custom-box" class="custom-box hidden">
+
+  <p class="custom-title">自訂單字</p>
+  <p class="custom-copy">
+    一行一筆，格式是「英文,中文」。匯入後也會自動產生例句和文法提示。
+  </p>
+
+  <textarea id="customWords" rows="6" placeholder="apple,蘋果&#10;read,閱讀"></textarea>
+
+  <div class="custom-actions">
+
+    <!-- 儲存 -->
+    <button type="button" id="save-custom-btn" class="secondary-button">
+      儲存單字
+    </button>
+
+    <!-- 匯出 -->
+    <button type="button" onclick="exportData()">
+      匯出資料
+    </button>
+
+    <!-- 匯入按鈕（點擊打開檔案） -->
+    <button type="button" onclick="document.getElementById('fileInput').click()">
+      匯入資料
+    </button>
+
+    <!-- 真正的檔案選擇（隱藏） -->
+    <input type="file" id="fileInput" accept=".json">
+
+  </div>
+
+</div>
 
     <section class="status-bar" aria-label="學習統計">
       <div class="stat-pill">
