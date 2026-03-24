@@ -36,7 +36,7 @@ textarea{
 
 .page-shell{
   min-height: 100vh;
-  padding: 24px 16px 96px;
+  padding: 24px 16px 40px;
 }
 
 .container{
@@ -423,16 +423,16 @@ button:active{
 }
 
 .ad-box{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
+  margin-top: 18px;
+  padding: 16px 18px;
   text-align: center;
   font-size: 13px;
-  background: rgba(255,255,255,0.8);
-  border-top: 1px solid var(--line);
-  backdrop-filter: blur(8px);
+  color: var(--muted);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
 }
 
 [data-theme="dark"]{
@@ -447,6 +447,36 @@ button:active{
   --secondary-text: #d9e4ff;
   --badge: rgba(255,185,96,0.18);
   --badge-text: #ffd998;
+}
+
+[data-theme="dark"] .stat-pill{
+  background: rgba(24, 35, 52, 0.94);
+  border-color: rgba(255,255,255,0.12);
+}
+
+[data-theme="dark"] .custom-box{
+  background: rgba(24, 35, 52, 0.94);
+  border-color: rgba(255,255,255,0.14);
+}
+
+[data-theme="dark"] .stat-pill span{
+  color: #dce7ff;
+}
+
+[data-theme="dark"] .badge{
+  background: rgba(255,185,96,0.28);
+  color: #ffe7bf;
+}
+
+[data-theme="dark"] .badge-soft{
+  background: rgba(72, 95, 132, 0.42);
+  color: #f3f7ff;
+}
+
+[data-theme="dark"] .grammar-pattern{
+  background: rgba(34, 48, 72, 0.96);
+  color: #eef4ff;
+  border-color: rgba(255,255,255,0.16);
 }
 
 [data-theme="pink"]{
@@ -495,41 +525,6 @@ button:active{
     width: 100%;
   }
 
-  /* ===== 深色主題完整修正 ===== */
-
-body[data-theme="dark"]{
-  background:#121212;
-  color:#ffffff;
-}
-
-/* 所有文字 */
-body[data-theme="dark"] *{
-  color:#ffffff;
-}
-
-/* 但按鈕例外（避免變白） */
-body[data-theme="dark"] button{
-  color:white;
-}
-
-/* 區塊 */
-body[data-theme="dark"] .container{
-  background:#1e1e1e;
-}
-
-/* 輸入區 */
-body[data-theme="dark"] input,
-body[data-theme="dark"] textarea,
-body[data-theme="dark"] select{
-  background:#2a2a2a;
-  color:#ffffff;
-  border:1px solid #555;
-}
-
-/* 例句 */
-body[data-theme="dark"] #example-box{
-  background:#2a2a2a;
-}
   #word-text{
     margin-top: 22px;
   }
